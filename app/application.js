@@ -4,7 +4,9 @@ Ext.define('ExtCI.Application', {
     extend: 'Ext.app.Application',
 
     views: [
-        // TODO: add views here
+        'MainViewport',
+        'MainToolbar',
+        'MainTabpanel'
     ],
 
     controllers: [
