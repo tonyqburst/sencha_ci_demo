@@ -3,17 +3,24 @@ Ext.define('ExtCI.Application', {
 
     extend: 'Ext.app.Application',
 
+    models: [
+        'user.UserList'
+    ],
+
     views: [
         'MainViewport',
         'MainToolbar',
-        'MainTabpanel'
+        'MainTabpanel',
+        'user.UserAdminPanel',
+        'user.UserList',
+        'user.UserForm'
     ],
 
     controllers: [
-        // TODO: add controllers here
+        'user.UserAdmin'
     ],
 
     stores: [
-        // TODO: add stores here
+        'user.UserList'
     ]
 });

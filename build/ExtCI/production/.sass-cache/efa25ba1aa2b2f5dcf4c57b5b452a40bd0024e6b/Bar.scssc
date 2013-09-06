@@ -2022,77 +2022,89 @@ right;i3;	@;"slicer-background-stretch;	@;
 @name"include-tab-default-ui;i:@operator:or;	@:@operand2o; 
 ;o;	;i;	@;
 "ui;"ui;i;:neq;	@;o:Sass::Script::String	:
-@type:string:@value"default;i;	@0[o:Sass::Tree::MixinNode;i¬:@keywords{?"ui_cursor_disabledo;	;ië;	@;
-"ui_tab_cursor_disabled;"ui-tab-cursor-disabled"ui_color_activeo;	;i°;	@;
-"ui_tab_color_active;"ui-tab-color-active"ui_icon_opacity_disabledo;	;iπ;	@;
-"!ui_tab_icon_opacity_disabled;"!ui-tab-icon-opacity-disabled"ui_glyph_opacity_disabledo;	;iµ;	@;
-""ui_tab_glyph_opacity_disabled;""ui-tab-glyph-opacity-disabled" ui_background_gradient_overo;	;i§;	@;
-"$ui_tab_background_gradient_over;"$ui-tab-background-gradient-over"ui_font_size_activeo;	;iî;	@;
-"ui_tab_font_size_active;"ui-tab-font-size-active"ui_background_coloro;	;iÉ;	@;
-"ui_tab_background_color;"ui-tab-background-color"ui_border_color_disabledo;	;iè;	@;
-"!ui_tab_border_color_disabled;"!ui-tab-border-color-disabled"ui_font_size_disabledo;	;iï;	@;
-"ui_tab_font_size_disabled;"ui-tab-font-size-disabled"ui_closable_icon_heighto;	;iº;	@;
-" ui_tab_closable_icon_height;" ui-tab-closable-icon-height"ui_line_heighto;	;iû;	@;
-"ui_tab_line_height;"ui-tab-line-height"ui_paddingo;	;iä;	@;
-"ui_tab_padding;"ui-tab-padding"ui_inner_border_widtho;	;i®;	@;
-"ui_tab_inner_border_width;"ui-tab-inner-border-width"ui_color_disabledo;	;i¢;	@;
-"ui_tab_color_disabled;"ui-tab-color-disabled"ui_color_overo;	;i†;	@;
-"ui_tab_color_over;"ui-tab-color-over"ui_font_sizeo;	;ií;	@;
-"ui_tab_font_size;"ui-tab-font-size"ui_cursoro;	;iê;	@;
-"ui_tab_cursor;"ui-tab-cursor"!ui_background_color_disabledo;	;iÜ;	@;
-"%ui_tab_background_color_disabled;"%ui-tab-background-color-disabled"ui_border_color_overo;	;iç;	@;
-"ui_tab_border_color_over;"ui-tab-border-color-over"ui_icon_spacingo;	;i≠;	@;
-"ui_tab_icon_spacing;"ui-tab-icon-spacing"ui_font_familyo;	;iö;	@;
-"ui_tab_font_family;"ui-tab-font-family"ui_border_color_activeo;	;ié;	@;
-"ui_tab_border_color_active;"ui-tab-border-color-active"ui_margino;	;iâ;	@;
-"ui_tab_margin;"ui-tab-margin"ui_glyph_coloro;	;i∞;	@;
-"ui_tab_glyph_color;"ui-tab-glyph-color"ui_opacity_disabledo;	;i∑;	@;
-"ui_tab_opacity_disabled;"ui-tab-opacity-disabled"ui_closable_icon_widtho;	;iª;	@;
-"ui_tab_closable_icon_width;"ui-tab-closable-icon-width"ui_glyph_color_overo;	;i±;	@;
+@type:string:@value"default;i;	@0[o:Sass::Tree::MixinNode;i¬:@keywords{?"ui_background_coloro;	;iÉ;	@;
+"ui_tab_background_color;"ui-tab-background-color"ui_font_family_disabledo;	;iù;	@;
+" ui_tab_font_family_disabled;" ui-tab-font-family-disabled"ui_glyph_coloro;	;i∞;	@;
+"ui_tab_glyph_color;"ui-tab-glyph-color"ui_background_color_overo;	;iÑ;	@;
+"!ui_tab_background_color_over;"!ui-tab-background-color-over"ui_closable_icon_heighto;	;iº;	@;
+" ui_tab_closable_icon_height;" ui-tab-closable-icon-height"ui_color_overo;	;i†;	@;
+"ui_tab_color_over;"ui-tab-color-over"ui_border_color_disabledo;	;iè;	@;
+"!ui_tab_border_color_disabled;"!ui-tab-border-color-disabled"ui_cursor_disabledo;	;ië;	@;
+"ui_tab_cursor_disabled;"ui-tab-cursor-disabled"ui_font_size_overo;	;iì;	@;
+"ui_tab_font_size_over;"ui-tab-font-size-over"ui_glyph_color_activeo;	;i≤;	@;
+"ui_tab_glyph_color_active;"ui-tab-glyph-color-active"ui_glyph_opacityo;	;i¥;	@;
+"ui_tab_glyph_opacity;"ui-tab-glyph-opacity"ui_closable_icon_righto;	;iæ;	@;
+"ui_tab_closable_icon_right;"ui-tab-closable-icon-right" ui_icon_background_positiono;	;iÆ;	@;
+"$ui_tab_icon_background_position;"$ui-tab-icon-background-position" ui_background_gradient_overo;	;i§;	@;
+"$ui_tab_background_gradient_over;"$ui-tab-background-gradient-over"ui_paddingo;	;iä;	@;
+"ui_tab_padding;"ui-tab-padding"ui_margino;	;iâ;	@;
+"ui_tab_margin;"ui-tab-margin"ui_font_size_disabledo;	;iï;	@;
+"ui_tab_font_size_disabled;"ui-tab-font-size-disabled"ui_font_weight_overo;	;ió;	@;
+"ui_tab_font_weight_over;"ui-tab-font-weight-over"ui_glyph_opacity_disabledo;	;iµ;	@;
+""ui_tab_glyph_opacity_disabled;""ui-tab-glyph-opacity-disabled"ui_glyph_color_overo;	;i±;	@;
 "ui_tab_glyph_color_over;"ui-tab-glyph-color-over"ui_icon_heighto;	;i¨;	@;
-"ui_tab_icon_height;"ui-tab-icon-height""ui_background_gradient_activeo;	;i•;	@;
-"&ui_tab_background_gradient_active;"&ui-tab-background-gradient-active"ui_icon_widtho;	;i´;	@;
-"ui_tab_icon_width;"ui-tab-icon-width"ui_glyph_opacityo;	;i¥;	@;
-"ui_tab_glyph_opacity;"ui-tab-glyph-opacity"ui_border_bottom_coloro;	;i¡;	@;
-"ui_strip_border_color;"ui-strip-border-color"ui_border_radiuso;	;iá;	@;
+"ui_tab_icon_height;"ui-tab-icon-height"$ui_background_gradient_disabledo;	;i¶;	@;
+"(ui_tab_background_gradient_disabled;"(ui-tab-background-gradient-disabled"ui_line_heighto;	;iû;	@;
+"ui_tab_line_height;"ui-tab-line-height"ui_background_color_activeo;	;iÖ;	@;
+"#ui_tab_background_color_active;"#ui-tab-background-color-active"ui_font_family_overo;	;iõ;	@;
+"ui_tab_font_family_over;"ui-tab-font-family-over"ui_opacity_disabledo;	;i∑;	@;
+"ui_tab_opacity_disabled;"ui-tab-opacity-disabled"ui_font_family_activeo;	;iú;	@;
+"ui_tab_font_family_active;"ui-tab-font-family-active"ui_font_familyo;	;iö;	@;
+"ui_tab_font_family;"ui-tab-font-family"ui_border_coloro;	;iå;	@;
+"ui_tab_border_color;"ui-tab-border-color"ui_color_activeo;	;i°;	@;
+"ui_tab_color_active;"ui-tab-color-active"ui_background_gradiento;	;i£;	@;
+"ui_tab_background_gradient;"ui-tab-background-gradient"ui_inner_border_widtho;	;i®;	@;
+"ui_tab_inner_border_width;"ui-tab-inner-border-width"ui_border_bottom_coloro;	;i¡;	@;
+"ui_strip_border_color;"ui-strip-border-color"ui_color_disabledo;	;i¢;	@;
+"ui_tab_color_disabled;"ui-tab-color-disabled"ui_icon_opacity_disabledo;	;iπ;	@;
+"!ui_tab_icon_opacity_disabled;"!ui-tab-icon-opacity-disabled"ui_border_color_activeo;	;ié;	@;
+"ui_tab_border_color_active;"ui-tab-border-color-active"ui_border_widtho;	;ià;	@;
+"ui_tab_border_width;"ui-tab-border-width"ui_closable_icon_spacingo;	;iø;	@;
+"!ui_tab_closable_icon_spacing;"!ui-tab-closable-icon-spacing"ui_inner_border_coloro;	;i©;	@;
+"ui_tab_inner_border_color;"ui-tab-inner-border-color"ui_font_weighto;	;iñ;	@;
+"ui_tab_font_weight;"ui-tab-font-weight"ui_font_size_activeo;	;iî;	@;
+"ui_tab_font_size_active;"ui-tab-font-size-active"ui_font_sizeo;	;ií;	@;
+"ui_tab_font_size;"ui-tab-font-size"!ui_background_color_disabledo;	;iÜ;	@;
+"%ui_tab_background_color_disabled;"%ui-tab-background-color-disabled"ui_border_radiuso;	;iá;	@;
 "ui_tab_border_radius;"ui-tab-border-radius"ui_text_paddingo;	;iã;	@;
-"ui_tab_text_padding;"ui-tab-text-padding"ui_font_size_overo;	;iì;	@;
-"ui_tab_font_size_over;"ui-tab-font-size-over"ui_font_weight_disabledo;	;iô;	@;
-" ui_tab_font_weight_disabled;" ui-tab-font-weight-disabled"ui_closable_icon_spacingo;	;iø;	@;
-"!ui_tab_closable_icon_spacing;"!ui-tab-closable-icon-spacing"ui_font_weight_activeo;	;iò;	@;
-"ui_tab_font_weight_active;"ui-tab-font-weight-active"ui_font_weighto;	;iñ;	@;
-"ui_tab_font_weight;"ui-tab-font-weight"ui_border_coloro;	;iå;	@;
-"ui_tab_border_color;"ui-tab-border-color"ui_background_gradiento;	;i£;	@;
-"ui_tab_background_gradient;"ui-tab-background-gradient"ui_closable_icon_topo;	;iΩ;	@;
-"ui_tab_closable_icon_top;"ui-tab-closable-icon-top"uio;	;iÅ;	@;
-"ui;"ui"ui_background_color_activeo;	;iÖ;	@;
-"#ui_tab_background_color_active;"#ui-tab-background-color-active"ui_font_weight_overo;	;ió;	@;
-"ui_tab_font_weight_over;"ui-tab-font-weight-over"ui_font_family_overo;	;iõ;	@;
-"ui_tab_font_family_over;"ui-tab-font-family-over"ui_coloro;	;iü;	@;
-"ui_tab_color;"ui-tab-color"ui_glyph_color_activeo;	;i≤;	@;
-"ui_tab_glyph_color_active;"ui-tab-glyph-color-active"ui_glyph_color_disabledo;	;i≥;	@;
-" ui_tab_glyph_color_disabled;" ui-tab-glyph-color-disabled" ui_icon_background_positiono;	;iÆ;	@;
-"$ui_tab_icon_background_position;"$ui-tab-icon-background-position"ui_font_family_disabledo;	;iù;	@;
-" ui_tab_font_family_disabled;" ui-tab-font-family-disabled"ui_closable_icon_righto;	;iæ;	@;
-"ui_tab_closable_icon_right;"ui-tab-closable-icon-right"ui_text_opacity_disabledo;	;i∏;	@;
-"!ui_tab_text_opacity_disabled;"!ui-tab-text-opacity-disabled"$ui_background_gradient_disabledo;	;i¶;	@;
-"(ui_tab_background_gradient_disabled;"(ui-tab-background-gradient-disabled"ui_font_family_activeo;	;iú;	@;
-"ui_tab_font_family_active;"ui-tab-font-family-active"ui_border_widtho;	;ià;	@;
-"ui_tab_border_width;"ui-tab-border-width"ui_background_color_overo;	;iÑ;	@;
-"!ui_tab_background_color_over;"!ui-tab-background-color-over"ui_inner_border_coloro;	;i©;	@;
-"ui_tab_inner_border_color;"ui-tab-inner-border-color;	@:@children[ :
+"ui_tab_text_padding;"ui-tab-text-padding"ui_font_weight_disabledo;	;iô;	@;
+" ui_tab_font_weight_disabled;" ui-tab-font-weight-disabled"ui_closable_icon_topo;	;iΩ;	@;
+"ui_tab_closable_icon_top;"ui-tab-closable-icon-top"ui_text_opacity_disabledo;	;i∏;	@;
+"!ui_tab_text_opacity_disabled;"!ui-tab-text-opacity-disabled"ui_glyph_color_disabledo;	;i≥;	@;
+" ui_tab_glyph_color_disabled;" ui-tab-glyph-color-disabled"ui_cursoro;	;iê;	@;
+"ui_tab_cursor;"ui-tab-cursor"uio;	;iÅ;	@;
+"ui;"ui""ui_background_gradient_activeo;	;i•;	@;
+"&ui_tab_background_gradient_active;"&ui-tab-background-gradient-active"ui_closable_icon_widtho;	;iª;	@;
+"ui_tab_closable_icon_width;"ui-tab-closable-icon-width"ui_border_color_overo;	;iç;	@;
+"ui_tab_border_color_over;"ui-tab-border-color-over"ui_coloro;	;iü;	@;
+"ui_tab_color;"ui-tab-color"ui_icon_widtho;	;i´;	@;
+"ui_tab_icon_width;"ui-tab-icon-width"ui_icon_spacingo;	;i≠;	@;
+"ui_tab_icon_spacing;"ui-tab-icon-spacing"ui_font_weight_activeo;	;iò;	@;
+"ui_tab_font_weight_active;"ui-tab-font-weight-active;	@:@children[ :
 @args[ ;"extjs-tab-uiu;c	[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
 @linei≈:@options{ :@underscored_name"include_tabbar_default_ui:
 @name"include-tabbar-default-ui;i≈:@operator:or;	@:@operand2o; 
 ;o;	;i≈;	@;
 "ui;"ui;i≈;:neq;	@;o:Sass::Script::String	:
-@type:string:@value"default;i≈;	@0[o:Sass::Tree::MixinNode;iﬁ:@keywords{"ui_background_coloro;	;i“;	@;
-"ui_bar_background_color;"ui-bar-background-color"ui_paddingo;	;i—;	@;
-"ui_bar_padding;"ui-bar-padding"ui_strip_heighto;	;i…;	@;
-"ui_strip_height;"ui-strip-height" ui_strip_plain_border_widtho;	;iÀ;	@;
-" ui_strip_plain_border_width;" ui-strip-plain-border-width"ui_strip_background_coloro;	;iÕ;	@;
-"ui_strip_background_color;"ui-strip-background-color" ui_scroller_cursor_disabledo;	;i◊;	@;
+@type:string:@value"default;i≈;	@0[o:Sass::Tree::MixinNode;iﬁ:@keywords{"ui_strip_heighto;	;i…;	@;
+"ui_strip_height;"ui-strip-height"ui_strip_background_coloro;	;iÕ;	@;
+"ui_strip_background_color;"ui-strip-background-color"ui_background_coloro;	;i“;	@;
+"ui_bar_background_color;"ui-bar-background-color"ui_scroller_opacityo;	;iÿ;	@;
+"ui_bar_scroller_opacity;"ui-bar-scroller-opacity"ui_strip_border_coloro;	;iÃ;	@;
+"ui_strip_border_color;"ui-strip-border-color"ui_paddingo;	;i—;	@;
+"ui_bar_padding;"ui-bar-padding"ui_border_coloro;	;i–;	@;
+"ui_bar_border_color;"ui-bar-border-color"ui_scroller_cursoro;	;i÷;	@;
+"ui_bar_scroller_cursor;"ui-bar-scroller-cursor"ui_strip_border_widtho;	;i ;	@;
+"ui_strip_border_width;"ui-strip-border-width"ui_background_gradiento;	;i”;	@;
+"ui_bar_background_gradient;"ui-bar-background-gradient" ui_strip_plain_border_widtho;	;iÀ;	@;
+" ui_strip_plain_border_width;" ui-strip-plain-border-width" ui_scroller_opacity_pressedo;	;i⁄;	@;
+"$ui_bar_scroller_opacity_pressed;"$ui-bar-scroller-opacity-pressed"ui_border_widtho;	;iœ;	@;
+"ui_bar_border_width;"ui-bar-border-width"ui_scroller_opacity_overo;	;iŸ;	@;
+"!ui_bar_scroller_opacity_over;"!ui-bar-scroller-opacity-over"ui_scroller_widtho;	;i‘;	@;
+"ui_bar_scroller_width;"ui-bar-scroller-width"!ui_scroller_opacity_disabledo;	;i€;	@;
+"%ui_bar_scroller_opacity_disabled;"%ui-bar-scroller-opacity-disabled"uio;	;i«;	@;
+"ui;"ui" ui_scroller_cursor_disabledo;	;i◊;	@;
 "$ui_bar_scroller_cursor_disabled;"$ui-bar-scroller-cursor-disabled"ui_tab_heighto; 
 ;o; 
 ;o; 
@@ -2103,19 +2115,7 @@ right;i3;	@;"slicer-background-stretch;	@;
 "ui_tab_text_padding;"ui-tab-text-padding;"vertical;i›;;;	@;o;
 ;i›;{ ;	@;[o;	;i›;	@;
 "ui_tab_padding;"ui-tab-padding;"vertical;i›;;;	@;o;	;i›;	@;
-"ui_tab_border_width;"ui-tab-border-width"ui_scroller_opacity_overo;	;iŸ;	@;
-"!ui_bar_scroller_opacity_over;"!ui-bar-scroller-opacity-over"ui_scroller_opacityo;	;iÿ;	@;
-"ui_bar_scroller_opacity;"ui-bar-scroller-opacity"ui_border_coloro;	;i–;	@;
-"ui_bar_border_color;"ui-bar-border-color"ui_scroller_cursoro;	;i÷;	@;
-"ui_bar_scroller_cursor;"ui-bar-scroller-cursor"ui_background_gradiento;	;i”;	@;
-"ui_bar_background_gradient;"ui-bar-background-gradient"ui_strip_border_widtho;	;i ;	@;
-"ui_strip_border_width;"ui-strip-border-width"uio;	;i«;	@;
-"ui;"ui"!ui_scroller_opacity_disabledo;	;i€;	@;
-"%ui_bar_scroller_opacity_disabled;"%ui-bar-scroller-opacity-disabled"ui_strip_border_coloro;	;iÃ;	@;
-"ui_strip_border_color;"ui-strip-border-color"ui_border_widtho;	;iœ;	@;
-"ui_bar_border_width;"ui-bar-border-width"ui_scroller_widtho;	;i‘;	@;
-"ui_bar_scroller_width;"ui-bar-scroller-width" ui_scroller_opacity_pressedo;	;i⁄;	@;
-"$ui_bar_scroller_opacity_pressed;"$ui-bar-scroller-opacity-pressed;	@:@children[ ;[ ;"extjs-tab-bar-ui;[O[o;;	{ ;"ui;"ui0[o;;	@;"ui_tab_background_color;"ui-tab-background-coloro;	;i-;	@;"tab_base_color;"tab-base-color[o;;	@;"!ui_tab_background_color_over;"!ui-tab-background-color-overo;	;i.;	@;"tab_base_color_over;"tab-base-color-over[o;;	@;"#ui_tab_background_color_active;"#ui-tab-background-color-activeo;	;i/;	@;"tab_base_color_active;"tab-base-color-active[o;;	@;"%ui_tab_background_color_disabled;"%ui-tab-background-color-disabledo;	;i0;	@;"tab_base_color_disabled;"tab-base-color-disabled[o;;	@;"ui_tab_border_radius;"ui-tab-border-radiuso;	;i1;	@;"tab_border_radius;"tab-border-radius[o;;	@;"ui_tab_border_width;"ui-tab-border-widtho;	;i2;	@;"tab_border_width;"tab-border-width[o;;	@;"ui_tab_margin;"ui-tab-margino;	;i3;	@;"tab_margin;"tab-margin[o;;	@;"ui_tab_padding;"ui-tab-paddingo;	;i4;	@;"tab_padding;"tab-padding[o;;	@;"ui_tab_text_padding;"ui-tab-text-paddingo;	;i5;	@;"tab_text_padding;"tab-text-padding[o;;	@;"ui_tab_border_color;"ui-tab-border-coloro;	;i6;	@;"tab_border_color;"tab-border-color[o;;	@;"ui_tab_border_color_over;"ui-tab-border-color-overo;	;i7;	@;"tab_border_color_over;"tab-border-color-over[o;;	@;"ui_tab_border_color_active;"ui-tab-border-color-activeo;	;i8;	@;"tab_border_color_active;"tab-border-color-active[o;;	@;"!ui_tab_border_color_disabled;"!ui-tab-border-color-disabledo;	;i9;	@;"tab_border_color_disabled;"tab-border-color-disabled[o;;	@;"ui_tab_cursor;"ui-tab-cursoro;	;i:;	@;"tab_cursor;"tab-cursor[o;;	@;"ui_tab_cursor_disabled;"ui-tab-cursor-disabledo;	;i;;	@;"tab_cursor_disabled;"tab-cursor-disabled[o;;	@;"ui_tab_font_size;"ui-tab-font-sizeo;	;i<;	@;"tab_font_size;"tab-font-size[o;;	@;"ui_tab_font_size_over;"ui-tab-font-size-overo;	;i=;	@;"tab_font_size_over;"tab-font-size-over[o;;	@;"ui_tab_font_size_active;"ui-tab-font-size-activeo;	;i>;	@;"tab_font_size_active;"tab-font-size-active[o;;	@;"ui_tab_font_size_disabled;"ui-tab-font-size-disabledo;	;i?;	@;"tab_font_size_disabled;"tab-font-size-disabled[o;;	@;"ui_tab_font_weight;"ui-tab-font-weighto;	;i@;	@;"tab_font_weight;"tab-font-weight[o;;	@;"ui_tab_font_weight_over;"ui-tab-font-weight-overo;	;iA;	@;"tab_font_weight_over;"tab-font-weight-over[o;;	@;"ui_tab_font_weight_active;"ui-tab-font-weight-activeo;	;iB;	@;"tab_font_weight_active;"tab-font-weight-active[o;;	@;" ui_tab_font_weight_disabled;" ui-tab-font-weight-disabledo;	;iC;	@;"tab_font_weight_disabled;"tab-font-weight-disabled[o;;	@;"ui_tab_font_family;"ui-tab-font-familyo;	;iD;	@;"tab_font_family;"tab-font-family[o;;	@;"ui_tab_font_family_over;"ui-tab-font-family-overo;	;iE;	@;"tab_font_family_over;"tab-font-family-over[o;;	@;"ui_tab_font_family_active;"ui-tab-font-family-activeo;	;iF;	@;"tab_font_family_active;"tab-font-family-active[o;;	@;" ui_tab_font_family_disabled;" ui-tab-font-family-disabledo;	;iG;	@;"tab_font_family_disabled;"tab-font-family-disabled[o;;	@;"ui_tab_line_height;"ui-tab-line-heighto;	;iH;	@;"tab_line_height;"tab-line-height[o;;	@;"ui_tab_color;"ui-tab-coloro;	;iI;	@;"tab_color;"tab-color[o;;	@;"ui_tab_color_over;"ui-tab-color-overo;	;iJ;	@;"tab_color_over;"tab-color-over[o;;	@;"ui_tab_color_active;"ui-tab-color-activeo;	;iK;	@;"tab_color_active;"tab-color-active[o;;	@;"ui_tab_color_disabled;"ui-tab-color-disabledo;	;iL;	@;"tab_color_disabled;"tab-color-disabled[o;;	@;"ui_tab_background_gradient;"ui-tab-background-gradiento;	;iM;	@;"tab_background_gradient;"tab-background-gradient[o;;	@;"$ui_tab_background_gradient_over;"$ui-tab-background-gradient-overo;	;iN;	@;"!tab_background_gradient_over;"!tab-background-gradient-over[o;;	@;"&ui_tab_background_gradient_active;"&ui-tab-background-gradient-activeo;	;iO;	@;"#tab_background_gradient_active;"#tab-background-gradient-active[o;;	@;"(ui_tab_background_gradient_disabled;"(ui-tab-background-gradient-disabledo;	;iP;	@;"%tab_background_gradient_disabled;"%tab-background-gradient-disabled[o;;	@;"ui_tab_inner_border_width;"ui-tab-inner-border-widtho;	;iR;	@;"tab_inner_border_width;"tab-inner-border-width[o;;	@;"ui_tab_inner_border_color;"ui-tab-inner-border-coloro;	;iS;	@;"tab_inner_border_color;"tab-inner-border-color[o;;	@;"ui_tab_icon_width;"ui-tab-icon-widtho;	;iU;	@;"tab_icon_width;"tab-icon-width[o;;	@;"ui_tab_icon_height;"ui-tab-icon-heighto;	;iV;	@;"tab_icon_height;"tab-icon-height[o;;	@;"ui_tab_icon_spacing;"ui-tab-icon-spacingo;	;iW;	@;"tab_icon_spacing;"tab-icon-spacing[o;;	@;"$ui_tab_icon_background_position;"$ui-tab-icon-background-positiono;	;iX;	@;"!tab_icon_background_position;"!tab-icon-background-position[o;;	@;"ui_tab_glyph_color;"ui-tab-glyph-coloro;	;iZ;	@;"tab_glyph_color;"tab-glyph-color[o;;	@;"ui_tab_glyph_color_over;"ui-tab-glyph-color-overo;	;i[;	@;"tab_glyph_color_over;"tab-glyph-color-over[o;;	@;"ui_tab_glyph_color_active;"ui-tab-glyph-color-activeo;	;i\;	@;"tab_glyph_color_active;"tab-glyph-color-active[o;;	@;" ui_tab_glyph_color_disabled;" ui-tab-glyph-color-disabledo;	;i];	@;"tab_glyph_color_disabled;"tab-glyph-color-disabled[o;;	@;"ui_tab_glyph_opacity;"ui-tab-glyph-opacityo;	;i^;	@;"tab_glyph_opacity;"tab-glyph-opacity[o;;	@;""ui_tab_glyph_opacity_disabled;""ui-tab-glyph-opacity-disabledo;	;i_;	@;"tab_glyph_opacity_disabled;"tab-glyph-opacity-disabled[o;;	@;"ui_tab_opacity_disabled;"ui-tab-opacity-disabledo;	;ia;	@;"tab_opacity_disabled;"tab-opacity-disabled[o;;	@;"!ui_tab_text_opacity_disabled;"!ui-tab-text-opacity-disabledo;	;ib;	@;"tab_text_opacity_disabled;"tab-text-opacity-disabled[o;;	@;"!ui_tab_icon_opacity_disabled;"!ui-tab-icon-opacity-disabledo;	;ic;	@;"tab_icon_opacity_disabled;"tab-icon-opacity-disabled[o;;	@;"ui_strip_height;"ui-strip-heighto;	;ie;	@;"tabbar_strip_height;"tabbar-strip-height[o;;	@;"ui_strip_border_width;"ui-strip-border-widtho;	;if;	@;"tabbar_strip_border_width;"tabbar-strip-border-width[o;;	@;" ui_strip_plain_border_width;" ui-strip-plain-border-widtho;	;ig;	@;"$tabbar_strip_plain_border_width;"$tabbar-strip-plain-border-width[o;;	@;"ui_strip_border_color;"ui-strip-border-coloro;	;ih;	@;"tabbar_strip_border_color;"tabbar-strip-border-color[o;;	@;"ui_strip_background_color;"ui-strip-background-coloro;	;ii;	@;""tabbar_strip_background_color;""tabbar-strip-background-color[o;;	@;"ui_bar_border_width;"ui-bar-border-widtho;	;ik;	@;"tabbar_border_width;"tabbar-border-width[o;;	@;"ui_bar_border_color;"ui-bar-border-coloro;	;il;	@;"tabbar_border_color;"tabbar-border-color[o;;	@;"ui_bar_padding;"ui-bar-paddingo;	;im;	@;"tabbar_padding;"tabbar-padding[o;;	@;"ui_bar_background_color;"ui-bar-background-coloro;	;in;	@;"tabbar_base_color;"tabbar-base-color[o;;	@;"ui_bar_background_gradient;"ui-bar-background-gradiento;	;io;	@;"tabbar_background_gradient;"tabbar-background-gradient[o;;	@;"ui_bar_scroller_width;"ui-bar-scroller-widtho;	;ip;	@;"tabbar_scroller_width;"tabbar-scroller-width[o;;	@;"ui_bar_scroller_cursor;"ui-bar-scroller-cursoro;	;ir;	@;"tabbar_scroller_cursor;"tabbar-scroller-cursor[o;;	@;"$ui_bar_scroller_cursor_disabled;"$ui-bar-scroller-cursor-disabledo;	;is;	@;"$tabbar_scroller_cursor_disabled;"$tabbar-scroller-cursor-disabled[o;;	@;"ui_bar_scroller_opacity;"ui-bar-scroller-opacityo;	;it;	@;"tabbar_scroller_opacity;"tabbar-scroller-opacity[o;;	@;"!ui_bar_scroller_opacity_over;"!ui-bar-scroller-opacity-overo;	;iu;	@;"!tabbar_scroller_opacity_over;"!tabbar-scroller-opacity-over[o;;	@;"$ui_bar_scroller_opacity_pressed;"$ui-bar-scroller-opacity-pressedo;	;iv;	@;"$tabbar_scroller_opacity_pressed;"$tabbar-scroller-opacity-pressed[o;;	@;"%ui_bar_scroller_opacity_disabled;"%ui-bar-scroller-opacity-disabledo;	;iw;	@;"%tabbar_scroller_opacity_disabled;"%tabbar-scroller-opacity-disabled[o;;	@;"ui_tab_closable_icon_width;"ui-tab-closable-icon-widtho;	;iy;	@;"tab_closable_icon_width;"tab-closable-icon-width[o;;	@;" ui_tab_closable_icon_height;" ui-tab-closable-icon-heighto;	;iz;	@;"tab_closable_icon_height;"tab-closable-icon-height[o;;	@;"ui_tab_closable_icon_top;"ui-tab-closable-icon-topo;	;i{;	@;"tab_closable_icon_top;"tab-closable-icon-top[o;;	@;"ui_tab_closable_icon_right;"ui-tab-closable-icon-righto;	;i|;	@;"tab_closable_icon_right;"tab-closable-icon-right[o;;	@;"!ui_tab_closable_icon_spacing;"!ui-tab-closable-icon-spacingo;	;i};	@;"tab_closable_icon_spacing;"tab-closable-icon-spacing;"extjs-tab-panel-uio;9;i‰;{"uio;+	;,:string;"default;i„;	@;	@;
+"ui_tab_border_width;"ui-tab-border-width;	@:@children[ ;[ ;"extjs-tab-bar-ui;[O[o;;	{ ;"ui;"ui0[o;;	@;"ui_tab_background_color;"ui-tab-background-coloro;	;i-;	@;"tab_base_color;"tab-base-color[o;;	@;"!ui_tab_background_color_over;"!ui-tab-background-color-overo;	;i.;	@;"tab_base_color_over;"tab-base-color-over[o;;	@;"#ui_tab_background_color_active;"#ui-tab-background-color-activeo;	;i/;	@;"tab_base_color_active;"tab-base-color-active[o;;	@;"%ui_tab_background_color_disabled;"%ui-tab-background-color-disabledo;	;i0;	@;"tab_base_color_disabled;"tab-base-color-disabled[o;;	@;"ui_tab_border_radius;"ui-tab-border-radiuso;	;i1;	@;"tab_border_radius;"tab-border-radius[o;;	@;"ui_tab_border_width;"ui-tab-border-widtho;	;i2;	@;"tab_border_width;"tab-border-width[o;;	@;"ui_tab_margin;"ui-tab-margino;	;i3;	@;"tab_margin;"tab-margin[o;;	@;"ui_tab_padding;"ui-tab-paddingo;	;i4;	@;"tab_padding;"tab-padding[o;;	@;"ui_tab_text_padding;"ui-tab-text-paddingo;	;i5;	@;"tab_text_padding;"tab-text-padding[o;;	@;"ui_tab_border_color;"ui-tab-border-coloro;	;i6;	@;"tab_border_color;"tab-border-color[o;;	@;"ui_tab_border_color_over;"ui-tab-border-color-overo;	;i7;	@;"tab_border_color_over;"tab-border-color-over[o;;	@;"ui_tab_border_color_active;"ui-tab-border-color-activeo;	;i8;	@;"tab_border_color_active;"tab-border-color-active[o;;	@;"!ui_tab_border_color_disabled;"!ui-tab-border-color-disabledo;	;i9;	@;"tab_border_color_disabled;"tab-border-color-disabled[o;;	@;"ui_tab_cursor;"ui-tab-cursoro;	;i:;	@;"tab_cursor;"tab-cursor[o;;	@;"ui_tab_cursor_disabled;"ui-tab-cursor-disabledo;	;i;;	@;"tab_cursor_disabled;"tab-cursor-disabled[o;;	@;"ui_tab_font_size;"ui-tab-font-sizeo;	;i<;	@;"tab_font_size;"tab-font-size[o;;	@;"ui_tab_font_size_over;"ui-tab-font-size-overo;	;i=;	@;"tab_font_size_over;"tab-font-size-over[o;;	@;"ui_tab_font_size_active;"ui-tab-font-size-activeo;	;i>;	@;"tab_font_size_active;"tab-font-size-active[o;;	@;"ui_tab_font_size_disabled;"ui-tab-font-size-disabledo;	;i?;	@;"tab_font_size_disabled;"tab-font-size-disabled[o;;	@;"ui_tab_font_weight;"ui-tab-font-weighto;	;i@;	@;"tab_font_weight;"tab-font-weight[o;;	@;"ui_tab_font_weight_over;"ui-tab-font-weight-overo;	;iA;	@;"tab_font_weight_over;"tab-font-weight-over[o;;	@;"ui_tab_font_weight_active;"ui-tab-font-weight-activeo;	;iB;	@;"tab_font_weight_active;"tab-font-weight-active[o;;	@;" ui_tab_font_weight_disabled;" ui-tab-font-weight-disabledo;	;iC;	@;"tab_font_weight_disabled;"tab-font-weight-disabled[o;;	@;"ui_tab_font_family;"ui-tab-font-familyo;	;iD;	@;"tab_font_family;"tab-font-family[o;;	@;"ui_tab_font_family_over;"ui-tab-font-family-overo;	;iE;	@;"tab_font_family_over;"tab-font-family-over[o;;	@;"ui_tab_font_family_active;"ui-tab-font-family-activeo;	;iF;	@;"tab_font_family_active;"tab-font-family-active[o;;	@;" ui_tab_font_family_disabled;" ui-tab-font-family-disabledo;	;iG;	@;"tab_font_family_disabled;"tab-font-family-disabled[o;;	@;"ui_tab_line_height;"ui-tab-line-heighto;	;iH;	@;"tab_line_height;"tab-line-height[o;;	@;"ui_tab_color;"ui-tab-coloro;	;iI;	@;"tab_color;"tab-color[o;;	@;"ui_tab_color_over;"ui-tab-color-overo;	;iJ;	@;"tab_color_over;"tab-color-over[o;;	@;"ui_tab_color_active;"ui-tab-color-activeo;	;iK;	@;"tab_color_active;"tab-color-active[o;;	@;"ui_tab_color_disabled;"ui-tab-color-disabledo;	;iL;	@;"tab_color_disabled;"tab-color-disabled[o;;	@;"ui_tab_background_gradient;"ui-tab-background-gradiento;	;iM;	@;"tab_background_gradient;"tab-background-gradient[o;;	@;"$ui_tab_background_gradient_over;"$ui-tab-background-gradient-overo;	;iN;	@;"!tab_background_gradient_over;"!tab-background-gradient-over[o;;	@;"&ui_tab_background_gradient_active;"&ui-tab-background-gradient-activeo;	;iO;	@;"#tab_background_gradient_active;"#tab-background-gradient-active[o;;	@;"(ui_tab_background_gradient_disabled;"(ui-tab-background-gradient-disabledo;	;iP;	@;"%tab_background_gradient_disabled;"%tab-background-gradient-disabled[o;;	@;"ui_tab_inner_border_width;"ui-tab-inner-border-widtho;	;iR;	@;"tab_inner_border_width;"tab-inner-border-width[o;;	@;"ui_tab_inner_border_color;"ui-tab-inner-border-coloro;	;iS;	@;"tab_inner_border_color;"tab-inner-border-color[o;;	@;"ui_tab_icon_width;"ui-tab-icon-widtho;	;iU;	@;"tab_icon_width;"tab-icon-width[o;;	@;"ui_tab_icon_height;"ui-tab-icon-heighto;	;iV;	@;"tab_icon_height;"tab-icon-height[o;;	@;"ui_tab_icon_spacing;"ui-tab-icon-spacingo;	;iW;	@;"tab_icon_spacing;"tab-icon-spacing[o;;	@;"$ui_tab_icon_background_position;"$ui-tab-icon-background-positiono;	;iX;	@;"!tab_icon_background_position;"!tab-icon-background-position[o;;	@;"ui_tab_glyph_color;"ui-tab-glyph-coloro;	;iZ;	@;"tab_glyph_color;"tab-glyph-color[o;;	@;"ui_tab_glyph_color_over;"ui-tab-glyph-color-overo;	;i[;	@;"tab_glyph_color_over;"tab-glyph-color-over[o;;	@;"ui_tab_glyph_color_active;"ui-tab-glyph-color-activeo;	;i\;	@;"tab_glyph_color_active;"tab-glyph-color-active[o;;	@;" ui_tab_glyph_color_disabled;" ui-tab-glyph-color-disabledo;	;i];	@;"tab_glyph_color_disabled;"tab-glyph-color-disabled[o;;	@;"ui_tab_glyph_opacity;"ui-tab-glyph-opacityo;	;i^;	@;"tab_glyph_opacity;"tab-glyph-opacity[o;;	@;""ui_tab_glyph_opacity_disabled;""ui-tab-glyph-opacity-disabledo;	;i_;	@;"tab_glyph_opacity_disabled;"tab-glyph-opacity-disabled[o;;	@;"ui_tab_opacity_disabled;"ui-tab-opacity-disabledo;	;ia;	@;"tab_opacity_disabled;"tab-opacity-disabled[o;;	@;"!ui_tab_text_opacity_disabled;"!ui-tab-text-opacity-disabledo;	;ib;	@;"tab_text_opacity_disabled;"tab-text-opacity-disabled[o;;	@;"!ui_tab_icon_opacity_disabled;"!ui-tab-icon-opacity-disabledo;	;ic;	@;"tab_icon_opacity_disabled;"tab-icon-opacity-disabled[o;;	@;"ui_strip_height;"ui-strip-heighto;	;ie;	@;"tabbar_strip_height;"tabbar-strip-height[o;;	@;"ui_strip_border_width;"ui-strip-border-widtho;	;if;	@;"tabbar_strip_border_width;"tabbar-strip-border-width[o;;	@;" ui_strip_plain_border_width;" ui-strip-plain-border-widtho;	;ig;	@;"$tabbar_strip_plain_border_width;"$tabbar-strip-plain-border-width[o;;	@;"ui_strip_border_color;"ui-strip-border-coloro;	;ih;	@;"tabbar_strip_border_color;"tabbar-strip-border-color[o;;	@;"ui_strip_background_color;"ui-strip-background-coloro;	;ii;	@;""tabbar_strip_background_color;""tabbar-strip-background-color[o;;	@;"ui_bar_border_width;"ui-bar-border-widtho;	;ik;	@;"tabbar_border_width;"tabbar-border-width[o;;	@;"ui_bar_border_color;"ui-bar-border-coloro;	;il;	@;"tabbar_border_color;"tabbar-border-color[o;;	@;"ui_bar_padding;"ui-bar-paddingo;	;im;	@;"tabbar_padding;"tabbar-padding[o;;	@;"ui_bar_background_color;"ui-bar-background-coloro;	;in;	@;"tabbar_base_color;"tabbar-base-color[o;;	@;"ui_bar_background_gradient;"ui-bar-background-gradiento;	;io;	@;"tabbar_background_gradient;"tabbar-background-gradient[o;;	@;"ui_bar_scroller_width;"ui-bar-scroller-widtho;	;ip;	@;"tabbar_scroller_width;"tabbar-scroller-width[o;;	@;"ui_bar_scroller_cursor;"ui-bar-scroller-cursoro;	;ir;	@;"tabbar_scroller_cursor;"tabbar-scroller-cursor[o;;	@;"$ui_bar_scroller_cursor_disabled;"$ui-bar-scroller-cursor-disabledo;	;is;	@;"$tabbar_scroller_cursor_disabled;"$tabbar-scroller-cursor-disabled[o;;	@;"ui_bar_scroller_opacity;"ui-bar-scroller-opacityo;	;it;	@;"tabbar_scroller_opacity;"tabbar-scroller-opacity[o;;	@;"!ui_bar_scroller_opacity_over;"!ui-bar-scroller-opacity-overo;	;iu;	@;"!tabbar_scroller_opacity_over;"!tabbar-scroller-opacity-over[o;;	@;"$ui_bar_scroller_opacity_pressed;"$ui-bar-scroller-opacity-pressedo;	;iv;	@;"$tabbar_scroller_opacity_pressed;"$tabbar-scroller-opacity-pressed[o;;	@;"%ui_bar_scroller_opacity_disabled;"%ui-bar-scroller-opacity-disabledo;	;iw;	@;"%tabbar_scroller_opacity_disabled;"%tabbar-scroller-opacity-disabled[o;;	@;"ui_tab_closable_icon_width;"ui-tab-closable-icon-widtho;	;iy;	@;"tab_closable_icon_width;"tab-closable-icon-width[o;;	@;" ui_tab_closable_icon_height;" ui-tab-closable-icon-heighto;	;iz;	@;"tab_closable_icon_height;"tab-closable-icon-height[o;;	@;"ui_tab_closable_icon_top;"ui-tab-closable-icon-topo;	;i{;	@;"tab_closable_icon_top;"tab-closable-icon-top[o;;	@;"ui_tab_closable_icon_right;"ui-tab-closable-icon-righto;	;i|;	@;"tab_closable_icon_right;"tab-closable-icon-right[o;;	@;"!ui_tab_closable_icon_spacing;"!ui-tab-closable-icon-spacingo;	;i};	@;"tab_closable_icon_spacing;"tab-closable-icon-spacing;"extjs-tab-panel-uio;9;i‰;{"uio;+	;,:string;"default;i„;	@;	@;
 [ ;[ ;"extjs-tab-panel-uio;;i ;T;[".o;	;iÊ;	@;"prefix;"prefix"tab-bar-plain;iÊ;	@;
 [o;;i ;;;o;	;iÁ;	@;"tabbar_plain_border_width;"tabbar-plain-border-width;iÁ;	@;
 [ ;["border-widtho;;i ;;;o;	;iË;	@;"tabbar_plain_padding;"tabbar-plain-padding;iË;	@;

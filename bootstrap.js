@@ -13,6 +13,7 @@ Ext.Loader.addClassPathMappings({
   "ExtCI.Application": "app/application.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
+  "ExtCI.view.MainToolbar": [],
   "Ext.ux.BoxReorderer": [],
   "ExtThemeNeptune.menu.Menu": [],
   "ExtThemeNeptune.container.ButtonGroup": [],
@@ -24,6 +25,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.grid.filter.ListFilter": [],
   "ExtThemeNeptune.panel.Panel": [],
   "ExtThemeNeptune.toolbar.Paging": [],
+  "ExtCI.view.user.UserAdminPanel": [],
   "Ext.ux.event.Driver": [],
   "Ext.ux.ajax.XmlSimlet": [],
   "Ext.ux.dd.PanelFieldDragZone": [],
@@ -38,14 +40,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "ExtCI.controller.Main": [],
   "Ext.ux.DataView.LabelEditor": [],
   "Ext.ux.GroupTabPanel": [],
+  "ExtCI.view.MainTabpanel": [],
   "Ext.ux.grid.filter.StringFilter": [],
   "Ext.ux.statusbar.ValidationStatus": [],
   "ExtThemeNeptune.grid.column.RowNumberer": [],
   "Ext.ux.layout.Center": [],
   "ExtCI.view.Viewport": [],
+  "ExtCI.view.user.UserForm": [],
   "Ext.ux.PreviewPlugin": [],
   "Ext.ux.DataView.Animated": [],
   "ExtThemeNeptune.resizer.Splitter": [],
+  "ExtCI.controller.user.UserAdmin": [],
   "Ext.ux.ajax.SimXhr": [],
   "Ext.ux.event.RecorderManager": [],
   "Ext.ux.ProgressBarPager": [],
@@ -72,7 +77,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.TabScrollerMenu": [],
   "ExtThemeNeptune.menu.Separator": [],
   "Ext.ux.IFrame": [],
+  "ExtCI.view.MainViewport": [],
   "Ext.ux.DataView.Draggable": [],
+  "ExtCI.view.user.UserList": [],
   "Ext.ux.TabCloseMenu": [],
   "Ext.ux.form.SearchField": [],
   "Ext.ux.dd.CellFieldDropZone": [],
@@ -97,6 +104,9 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
+  "ExtCI.view.MainToolbar": [
+    "widget.maintoolbar"
+  ],
   "Ext.ux.BoxReorderer": [],
   "ExtThemeNeptune.menu.Menu": [],
   "ExtThemeNeptune.container.ButtonGroup": [],
@@ -112,6 +122,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "ExtThemeNeptune.panel.Panel": [],
   "ExtThemeNeptune.toolbar.Paging": [],
+  "ExtCI.view.user.UserAdminPanel": [
+    "widget.useradminpanel"
+  ],
   "Ext.ux.event.Driver": [],
   "Ext.ux.ajax.XmlSimlet": [
     "simlet.xml"
@@ -133,6 +146,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.GroupTabPanel": [
     "widget.grouptabpanel"
   ],
+  "ExtCI.view.MainTabpanel": [
+    "widget.maintabpanel"
+  ],
   "Ext.ux.grid.filter.StringFilter": [
     "gridfilter.string"
   ],
@@ -142,11 +158,15 @@ Ext.ClassManager.addNameAliasMappings({
     "layout.ux.center"
   ],
   "ExtCI.view.Viewport": [],
+  "ExtCI.view.user.UserForm": [
+    "widget.userform"
+  ],
   "Ext.ux.PreviewPlugin": [
     "plugin.preview"
   ],
   "Ext.ux.DataView.Animated": [],
   "ExtThemeNeptune.resizer.Splitter": [],
+  "ExtCI.controller.user.UserAdmin": [],
   "Ext.ux.ajax.SimXhr": [],
   "Ext.ux.event.RecorderManager": [
     "widget.eventrecordermanager"
@@ -187,7 +207,13 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.IFrame": [
     "widget.uxiframe"
   ],
+  "ExtCI.view.MainViewport": [
+    "widget.mainviewport"
+  ],
   "Ext.ux.DataView.Draggable": [],
+  "ExtCI.view.user.UserList": [
+    "widget.userlist"
+  ],
   "Ext.ux.TabCloseMenu": [
     "plugin.tabclosemenu"
   ],

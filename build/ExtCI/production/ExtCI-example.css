@@ -1,0 +1,63 @@
+/*
+Syntax error: File to import not found or unreadable: compass.
+              Load path: /var/www/sencha_ci_demo/build/ExtCI/production
+        on line 2 of ../../../ext/packages/ext-theme-base/sass/etc/all.scss
+        from line 566 of ExtCI-example.scss
+
+1: $image-search-path: '/var/www/sencha_ci_demo/build/ExtCI/production/resources';
+2: $theme-name:  'senchaci-theme' !default;
+3: $include-ext-abstractcomponent: true;
+4: $include-ext-abstractmanager: true;
+5: $include-ext-abstractplugin: true;
+6: $include-ext-action: true;
+7: $include-ext-ajax: true;
+
+Backtrace:
+../../../ext/packages/ext-theme-base/sass/etc/all.scss:2
+ExtCI-example.scss:566
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/import_node.rb:67:in `import'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:227:in `map'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin/compiler.rb:362:in `update_stylesheet'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/plugin.rb:81:in `update_stylesheets'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/exec.rb:432:in `watch_or_update'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/exec.rb:315:in `process_result'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/var/lib/gems/1.8/gems/sass-3.2.9/bin/scss:9
+/usr/local/bin/scss:19:in `load'
+/usr/local/bin/scss:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: /var/www/sencha_ci_demo/build/ExtCI/production\A         on line 2 of ../../../ext/packages/ext-theme-base/sass/etc/all.scss\A         from line 566 of ExtCI-example.scss\A \A 1: $image-search-path: '/var/www/sencha_ci_demo/build/ExtCI/production/resources';\A 2: $theme-name:  'senchaci-theme' !default;\A 3: $include-ext-abstractcomponent: true;\A 4: $include-ext-abstractmanager: true;\A 5: $include-ext-abstractplugin: true;\A 6: $include-ext-action: true;\A 7: $include-ext-ajax: true;"; }

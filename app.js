@@ -11,6 +11,12 @@ Ext.Loader.setConfig({
     enabled: true
 });
 
+Ext.require([
+    'Ext.layout.container.Border',
+    'Ext.toolbar.Paging',
+    'Ext.form.field.ComboBox'
+]);
+
 Ext.application({
     name: 'ExtCI',
 

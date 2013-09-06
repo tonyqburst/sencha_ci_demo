@@ -19,9 +19,6 @@ Ext.define('ExtCI.view.MainViewport', {
                 {
                     xtype: 'panel',
                     region: 'north',
-                    height: 80,
-                    maxHeight: 80,
-                    minHeight: 80,
                     layout: {
                         type: 'fit'
                     },

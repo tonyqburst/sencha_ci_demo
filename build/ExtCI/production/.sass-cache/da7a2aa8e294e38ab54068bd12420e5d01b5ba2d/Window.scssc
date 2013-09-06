@@ -709,11 +709,11 @@
 :@operand1o:Sass::Script::Variable	:
 @linei∑:@options{ :@underscored_name"ui_border_radius:
 @name"ui-border-radius;i∑:@operator:neq;	@:@operand2o:Sass::Script::String	:
-@type:identifier:@value"	null;i∑;	@0[o:Sass::Tree::MixinNode;i¿:@keywords{	"paddingo;	;iæ;	@;
+@type:identifier:@value"	null;i∑;	@0[o:Sass::Tree::MixinNode;i¿:@keywords{	"border_radiuso;	;iº;	@;
+"ui_border_radius;"ui-border-radius"paddingo;	;iæ;	@;
 "ui_padding;"ui-padding"border_widtho;	;iΩ;	@;
 "ui_border_width;"ui-border-width"background_coloro;	;iø;	@;
-"ui_background_color;"ui-background-color"border_radiuso;	;iº;	@;
-"ui_border_radius;"ui-border-radius;	@:@children[ :
+"ui_background_color;"ui-background-color;	@:@children[ :
 @args[o;	;:string;"window;iπ;	@o;	;i∫;	@;
 "ui_label;"ui-label;"x-frameo;;i ;T;[	".o;	;i√;	@;"prefix;"prefix"window-body-o;	;i√;	@;"ui_label;"ui-label;i√;	@;
 [u;x[o:Sass::Script::Operation
@@ -827,111 +827,111 @@ comma;	@;	@;
 @linei:@options{ :@underscored_name"ui_border_radius:
 @name"ui-border-radius;i:@operator:neq;	@:@operand2o:Sass::Script::String	:
 @type:identifier:@value"	null;i;	@0[o:Sass::Tree::MixinNode;i
-:@keywords{"paddingo;	;i;	@;
+:@keywords{"border_radiuso:Sass::Script::List	;[	o:Sass::Script::Funcall
+;i;{ ;	@:
+@args[o;	;i;	@;
+"ui_border_radius;"ui-border-radius;"topo;
+;i;{ ;	@;[o;	;i;	@;
+"ui_border_radius;"ui-border-radius;"
+righto:Sass::Script::Number:@denominator_units[ ;i ;i:@numerator_units[ ;	@:@original"0o;;@";i ;i;[ ;	@;"0;i:@separator:
+space;	@"clso;	;:string;"window-header;i;	@"paddingo;	;i;	@;
 "header_expanded_padding;"header-expanded-padding"uio:&Sass::Script::StringInterpolation
-:@aftero;	;:string;"	-top;i;	@;i:	@mido;	;i;	@;
-"ui_label;"ui-label;	@:@beforeo;	;;;" ;i;	@"border_widtho:Sass::Script::List	;[	o:Sass::Script::Funcall
-;i;{ ;	@:
-@args[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"topo;
-;i;{ ;	@;[o;	;i;	@;
+:@aftero;	;;;"	-top;i;	@;i:	@mido;	;i;	@;
+"ui_label;"ui-label;	@:@beforeo;	;;;" ;i;	@"border_widtho;	;[	o;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"topo;
+;i;{ ;	@;[o;	;i;	@;
 "ui_header_border_width;"ui-header-border-width;"
 righto;	;i;	@;
-"header_border_bottom_width;"header-border-bottom-widtho;
-;i;{ ;	@;[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"	left;i:@separator:
-space;	@"background_coloro;	;i	;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i;	@"border_radiuso;	;[	o;
-;i;{ ;	@;[o;	;i;	@;
-"ui_border_radius;"ui-border-radius;"topo;
-;i;{ ;	@;[o;	;i;	@;
+"header_border_bottom_width;"header-border-bottom-widtho;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"	left;i;;;	@"background_coloro;	;i	;	@;
+"ui_header_background_color;"ui-header-background-color;	@:@children[ ;[ ;"x-frameo;;i;{"border_radiuso;	;[	o;;@";i ;i;[ ;	@;"0o;
+;i;{ ;	@;[o;	;i;	@;
+"ui_border_radius;"ui-border-radius;"topo;
+;i;{ ;	@;[o;	;i;	@;
 "ui_border_radius;"ui-border-radius;"
-righto:Sass::Script::Number:@denominator_units[ ;i ;i:@numerator_units[ ;	@:@original"0o;; @Q;i ;i;![ ;	@;""0;i;;;	@;	@:@children[ ;[ ;"x-frameo;;i;{"include_frame_rtlo;	;i;	@;
-"include_rtl;"include-rtl"paddingo;
-;i;{ ;	@;[o;	;i;	@;
-"header_expanded_padding;"header-expanded-padding;"rotate90"uio;
-;o;	;;;"-right;i;	@;i;o;	;i;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i;	@"border_widtho;	;[	o;
-;i;{ ;	@;[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"	lefto;
-;i;{ ;	@;[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"topo;
-;i;{ ;	@;[o;	;i;	@;
+righto;;@";i ;i;[ ;	@;"0;i;;;	@"clso;	;;;"window-header;i;	@"include_frame_rtlo;	;i;	@;
+"include_rtl;"include-rtl"paddingo;
+;i;{ ;	@;[o;	;i;	@;
+"header_expanded_padding;"header-expanded-padding;"rotate90"uio;
+; o;	;;;"-right;i;	@;i;!o;	;i;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i;	@"border_widtho;	;[	o;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"	lefto;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"topo;
+;i;{ ;	@;[o;	;i;	@;
 "ui_header_border_width;"ui-header-border-width;"
 righto;	;i;	@;
-"header_border_bottom_width;"header-border-bottom-width;i;;;	@"background_coloro;	;i;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i;	@"border_radiuso;	;[	o;; @Q;i ;i;![ ;	@;""0o;
-;i;{ ;	@;[o;	;i;	@;
-"ui_border_radius;"ui-border-radius;"topo;
-;i;{ ;	@;[o;	;i;	@;
-"ui_border_radius;"ui-border-radius;"
-righto;; @Q;i ;i;![ ;	@;""0;i;;;	@;	@;#[ ;[ ;"x-frameo;;i;{"paddingo;
-;i;{ ;	@;[o;	;i;	@;
-"header_expanded_padding;"header-expanded-padding;"rotate180"uio;
-;o;	;;;"-bottom;i;	@;i;o;	;i;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i;	@"border_widtho;	;[	o;	;i;	@;
-"header_border_bottom_width;"header-border-bottom-widtho;
-;i;{ ;	@;[o;	;i;	@;
+"header_border_bottom_width;"header-border-bottom-width;i;;;	@"background_coloro;	;i;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;i;{"border_radiuso;	;[	o;;@";i ;i;[ ;	@;"0o;;@";i ;i;[ ;	@;"0o;
+;i;{ ;	@;[o;	;i;	@;
+"ui_border_radius;"ui-border-radius;"topo;
+;i;{ ;	@;[o;	;i;	@;
+"ui_border_radius;"ui-border-radius;"	left;i;;;	@"clso;	;;;"window-header;i;	@"paddingo;
+;i;{ ;	@;[o;	;i;	@;
+"header_expanded_padding;"header-expanded-padding;"rotate180"uio;
+; o;	;;;"-bottom;i;	@;i;!o;	;i;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i;	@"border_widtho;	;[	o;	;i;	@;
+"header_border_bottom_width;"header-border-bottom-widtho;
+;i;{ ;	@;[o;	;i;	@;
 "ui_header_border_width;"ui-header-border-width;"
-righto;
-;i;{ ;	@;[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"topo;
-;i;{ ;	@;[o;	;i;	@;
-"ui_header_border_width;"ui-header-border-width;"	left;i;;;	@"background_coloro;	;i;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i;	@"border_radiuso;	;[	o;; @Q;i ;i;![ ;	@;""0o;; @Q;i ;i;![ ;	@;""0o;
-;i;{ ;	@;[o;	;i;	@;
-"ui_border_radius;"ui-border-radius;"topo;
-;i;{ ;	@;[o;	;i;	@;
-"ui_border_radius;"ui-border-radius;"	left;i;;;	@;	@;#[ ;[ ;"x-frameo;;i';{"include_frame_rtlo;	;i&;	@;
-"include_rtl;"include-rtl"paddingo;
-;i$;{ ;	@;[o;	;i$;	@;
-"header_expanded_padding;"header-expanded-padding;"rotate270"uio;
-;o;	;;;"
--left;i!;	@;i!;o;	;i!;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i!;	@"border_widtho;	;[	o;
-;i#;{ ;	@;[o;	;i#;	@;
+righto;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"topo;
+;i;{ ;	@;[o;	;i;	@;
+"ui_header_border_width;"ui-header-border-width;"	left;i;;;	@"background_coloro;	;i;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;i';{"border_radiuso;	;[	o;
+;i";{ ;	@;[o;	;i";	@;
+"ui_border_radius;"ui-border-radius;"
+righto;;@";i ;i";[ ;	@;"0o;;@";i ;i";[ ;	@;"0o;
+;i";{ ;	@;[o;	;i";	@;
+"ui_border_radius;"ui-border-radius;"top;i";;;	@"clso;	;;;"window-header;i ;	@"include_frame_rtlo;	;i&;	@;
+"include_rtl;"include-rtl"paddingo;
+;i$;{ ;	@;[o;	;i$;	@;
+"header_expanded_padding;"header-expanded-padding;"rotate270"uio;
+; o;	;;;"
+-left;i!;	@;i!;!o;	;i!;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i!;	@"border_widtho;	;[	o;
+;i#;{ ;	@;[o;	;i#;	@;
 "ui_header_border_width;"ui-header-border-width;"
 righto;	;i#;	@;
-"header_border_bottom_width;"header-border-bottom-widtho;
-;i#;{ ;	@;[o;	;i#;	@;
-"ui_header_border_width;"ui-header-border-width;"	lefto;
-;i#;{ ;	@;[o;	;i#;	@;
-"ui_header_border_width;"ui-header-border-width;"top;i#;;;	@"background_coloro;	;i%;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i ;	@"border_radiuso;	;[	o;
-;i";{ ;	@;[o;	;i";	@;
-"ui_border_radius;"ui-border-radius;"
-righto;; @Q;i ;i";![ ;	@;""0o;; @Q;i ;i";![ ;	@;""0o;
-;i";{ ;	@;[o;	;i";	@;
-"ui_border_radius;"ui-border-radius;"top;i";;;	@;	@;#[ ;[ ;"x-frameo;;i0;{"paddingo;	;i.;	@;
-"ui_header_padding;"ui-header-padding"uio;
-;o;	;;;"-collapsed-top;i+;	@;i+;o;	;i+;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i+;	@"border_widtho;	;i-;	@;
+"header_border_bottom_width;"header-border-bottom-widtho;
+;i#;{ ;	@;[o;	;i#;	@;
+"ui_header_border_width;"ui-header-border-width;"	lefto;
+;i#;{ ;	@;[o;	;i#;	@;
+"ui_header_border_width;"ui-header-border-width;"top;i#;;;	@"background_coloro;	;i%;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;i0;{"border_radiuso;	;i,;	@;
+"ui_border_radius;"ui-border-radius"clso;	;;;"window-header;i*;	@"paddingo;	;i.;	@;
+"ui_header_padding;"ui-header-padding"uio;
+; o;	;;;"-collapsed-top;i+;	@;i+;!o;	;i+;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i+;	@"border_widtho;	;i-;	@;
 "ui_header_border_width;"ui-header-border-width"background_coloro;	;i/;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i*;	@"border_radiuso;	;i,;	@;
-"ui_border_radius;"ui-border-radius;	@;#[ ;[ ;"x-frameo;;i:;{"include_frame_rtlo;	;i9;	@;
-"include_rtl;"include-rtl"paddingo;
-;i7;{ ;	@;[o;	;i7;	@;
-"ui_header_padding;"ui-header-padding;"rotate90"uio;
-;o;	;;;"-collapsed-right;i4;	@;i4;o;	;i4;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i4;	@"border_widtho;	;i6;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;i:;{"border_radiuso;	;i5;	@;
+"ui_border_radius;"ui-border-radius"clso;	;;;"window-header;i3;	@"include_frame_rtlo;	;i9;	@;
+"include_rtl;"include-rtl"paddingo;
+;i7;{ ;	@;[o;	;i7;	@;
+"ui_header_padding;"ui-header-padding;"rotate90"uio;
+; o;	;;;"-collapsed-right;i4;	@;i4;!o;	;i4;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i4;	@"border_widtho;	;i6;	@;
 "ui_header_border_width;"ui-header-border-width"background_coloro;	;i8;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i3;	@"border_radiuso;	;i5;	@;
-"ui_border_radius;"ui-border-radius;	@;#[ ;[ ;"x-frameo;;iC;{"paddingo;
-;iA;{ ;	@;[o;	;iA;	@;
-"ui_header_padding;"ui-header-padding;"rotate180"uio;
-;o;	;;;"-collapsed-bottom;i>;	@;i>;o;	;i>;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;i>;	@"border_widtho;	;i@;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;iC;{"border_radiuso;	;i?;	@;
+"ui_border_radius;"ui-border-radius"clso;	;;;"window-header;i=;	@"paddingo;
+;iA;{ ;	@;[o;	;iA;	@;
+"ui_header_padding;"ui-header-padding;"rotate180"uio;
+; o;	;;;"-collapsed-bottom;i>;	@;i>;!o;	;i>;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;i>;	@"border_widtho;	;i@;	@;
 "ui_header_border_width;"ui-header-border-width"background_coloro;	;iB;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;i=;	@"border_radiuso;	;i?;	@;
-"ui_border_radius;"ui-border-radius;	@;#[ ;[ ;"x-frameo;;iM;{"include_frame_rtlo;	;iL;	@;
-"include_rtl;"include-rtl"paddingo;
-;iJ;{ ;	@;[o;	;iJ;	@;
-"ui_header_padding;"ui-header-padding;"rotate270"uio;
-;o;	;;;"-collapsed-left;iG;	@;iG;o;	;iG;	@;
-"ui_label;"ui-label;	@;o;	;;;" ;iG;	@"border_widtho;	;iI;	@;
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameo;;iM;{"border_radiuso;	;iH;	@;
+"ui_border_radius;"ui-border-radius"clso;	;;;"window-header;iF;	@"include_frame_rtlo;	;iL;	@;
+"include_rtl;"include-rtl"paddingo;
+;iJ;{ ;	@;[o;	;iJ;	@;
+"ui_header_padding;"ui-header-padding;"rotate270"uio;
+; o;	;;;"-collapsed-left;iG;	@;iG;!o;	;iG;	@;
+"ui_label;"ui-label;	@;"o;	;;;" ;iG;	@"border_widtho;	;iI;	@;
 "ui_header_border_width;"ui-header-border-width"background_coloro;	;iK;	@;
-"ui_header_background_color;"ui-header-background-color"clso;	;;;"window-header;iF;	@"border_radiuso;	;iH;	@;
-"ui_border_radius;"ui-border-radius;	@;#[ ;[ ;"x-frameu;˝[o:Sass::Script::Operation
+"ui_header_background_color;"ui-header-background-color;	@;#[ ;[ ;"x-frameu;˝[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
 @lineiP:@options{ :@underscored_name"!ui_header_inner_border_width:
 @name"!ui-header-inner-border-width;iP:@operator:neq;	@:@operand2o:Sass::Script::Number:@denominator_units[ :@valuei ;iP:@numerator_units[ ;	@:@original"00[	o:Sass::Tree::RuleNode:
@@ -1167,8 +1167,8 @@ righto;;i ;;;o;	; o;	;i;	@;
 "ui_border_width;"ui-border-width;i;;!;	@;i;	@;[ ;["	lefto;;i ;;;o;	; o;	;i;	@;
 "ui_border_width;"ui-border-width;i;;!;	@;i;	@;[ ;["bottomu;Ç[o:Sass::Script::Variable	:
 @linei:@options{ :@underscored_name"'ui_include_border_management_rules:
-@name"'ui-include-border-management-rules0[o:Sass::Tree::MixinNode;i:@keywords{"parent_clso: Sass::Script::Interpolation:@after0;i:@originally_textF:	@mido; 	;i;@;"ui_label;	"ui-label;@:@whitespace_after0:@beforeo:Sass::Script::String	:
-@type:identifier:@value"window-;i;@:@whitespace_before0"border_coloro; 	;i;@;"ui_wrap_border_color;	"ui-wrap-border-color"border_widtho; 	;i;@;"ui_wrap_border_width;	"ui-wrap-border-width;@:@children[ :
+@name"'ui-include-border-management-rules0[o:Sass::Tree::MixinNode;i:@keywords{"border_widtho; 	;i;@;"ui_wrap_border_width;	"ui-wrap-border-width"parent_clso: Sass::Script::Interpolation:@after0;i:@originally_textF:	@mido; 	;i;@;"ui_label;	"ui-label;@:@whitespace_after0:@beforeo:Sass::Script::String	:
+@type:identifier:@value"window-;i;@:@whitespace_before0"border_coloro; 	;i;@;"ui_wrap_border_color;	"ui-wrap-border-color;@:@children[ :
 @args[ ;	"border-management;$[+[o;;	{ ;"ui_label;"ui-label0[o;;	@Å;"ui_padding;"ui-paddingo;	;iÇ;	@Å;"window_padding;"window-padding[o;;	@Å;"ui_border_radius;"ui-border-radiuso;	;iÉ;	@Å;"window_border_radius;"window-border-radius[o;;	@Å;"ui_border_color;"ui-border-coloro;	;iÑ;	@Å;"window_border_color;"window-border-color[o;;	@Å;"ui_border_width;"ui-border-widtho;	;iÖ;	@Å;"window_border_width;"window-border-width[o;;	@Å;"ui_inner_border_color;"ui-inner-border-coloro;	;iÜ;	@Å;"window_inner_border_color;"window-inner-border-color[o;;	@Å;"ui_inner_border_width;"ui-inner-border-widtho;	;iá;	@Å;"window_inner_border_width;"window-inner-border-width[o;;	@Å;"ui_header_color;"ui-header-coloro;	;iâ;	@Å;"window_header_color;"window-header-color[o;;	@Å;"ui_header_background_color;"ui-header-background-coloro;	;iä;	@Å;"#window_header_background_color;"#window-header-background-color[o;;	@Å;"ui_header_padding;"ui-header-paddingo;	;iã;	@Å;"window_header_padding;"window-header-padding[o;;	@Å;"ui_header_font_family;"ui-header-font-familyo;	;iå;	@Å;"window_header_font_family;"window-header-font-family[o;;	@Å;"ui_header_font_size;"ui-header-font-sizeo;	;iç;	@Å;"window_header_font_size;"window-header-font-size[o;;	@Å;"ui_header_font_weight;"ui-header-font-weighto;	;ié;	@Å;"window_header_font_weight;"window-header-font-weight[o;;	@Å;"ui_header_line_height;"ui-header-line-heighto;	;iè;	@Å;"window_header_line_height;"window-header-line-height[o;;	@Å;"ui_header_text_padding;"ui-header-text-paddingo;	;iê;	@Å;"window_header_text_padding;"window-header-text-padding[o;;	@Å;"ui_header_text_transform;"ui-header-text-transformo;	;ië;	@Å;"!window_header_text_transform;"!window-header-text-transform[o;;	@Å;"ui_header_border_color;"ui-header-border-coloro;	;ií;	@Å;"ui_border_color;"ui-border-color[o;;	@Å;"ui_header_border_width;"ui-header-border-widtho;	;iì;	@Å;"window_header_border_width;"window-header-border-width[o;;	@Å;"!ui_header_inner_border_color;"!ui-header-inner-border-coloro;	;iî;	@Å;"%window_header_inner_border_color;"%window-header-inner-border-color[o;;	@Å;"!ui_header_inner_border_width;"!ui-header-inner-border-widtho;	;iï;	@Å;"%window_header_inner_border_width;"%window-header-inner-border-width[o;;	@Å;"ui_header_icon_width;"ui-header-icon-widtho;	;iñ;	@Å;"window_header_icon_width;"window-header-icon-width[o;;	@Å;"ui_header_icon_height;"ui-header-icon-heighto;	;ió;	@Å;"window_header_icon_height;"window-header-icon-height[o;;	@Å;"ui_header_icon_spacing;"ui-header-icon-spacingo;	;iò;	@Å;"window_header_icon_spacing;"window-header-icon-spacing[o;;	@Å;"'ui_header_icon_background_position;"'ui-header-icon-background-positiono;	;iô;	@Å;"+window_header_icon_background_position;"+window-header-icon-background-position[o;;	@Å;"ui_header_glyph_color;"ui-header-glyph-coloro;	;iö;	@Å;"window_header_glyph_color;"window-header-glyph-color[o;;	@Å;"ui_header_glyph_opacity;"ui-header-glyph-opacityo;	;iõ;	@Å;" window_header_glyph_opacity;" window-header-glyph-opacity[o;;	@Å;"ui_tool_spacing;"ui-tool-spacingo;	;iù;	@Å;"window_tool_spacing;"window-tool-spacing[o;;	@Å;"ui_tool_background_image;"ui-tool-background-imageo;	;iû;	@Å;"!window_tool_background_image;"!window-tool-background-image[o;;	@Å;"ui_body_border_color;"ui-body-border-coloro;	;i†;	@Å;"window_body_border_color;"window-body-border-color[o;;	@Å;"ui_body_background_color;"ui-body-background-coloro;	;i°;	@Å;"!window_body_background_color;"!window-body-background-color[o;;	@Å;"ui_body_border_width;"ui-body-border-widtho;	;i¢;	@Å;"window_body_border_width;"window-body-border-width[o;;	@Å;"ui_body_border_style;"ui-body-border-styleo;	;i£;	@Å;"window_body_border_style;"window-body-border-style[o;;	@Å;"ui_body_color;"ui-body-coloro;	;i§;	@Å;"window_body_color;"window-body-color[o;;	@Å;"ui_background_color;"ui-background-coloro;	;i¶;	@Å;"window_background_color;"window-background-color[o;;	@Å;"ui_force_header_border;"ui-force-header-bordero;	;i©;	@Å;"window_force_header_border;"window-force-header-border[o;;	@Å;"'ui_include_border_management_rules;"'ui-include-border-management-ruleso;	;i™;	@Å;"+window_include_border_management_rules;"+window-include-border-management-rules[o;;	@Å;"ui_wrap_border_color;"ui-wrap-border-coloro;	;i´;	@Å;"window_wrap_border_color;"window-wrap-border-color[o;;	@Å;"ui_wrap_border_width;"ui-wrap-border-widtho;	;i¨;	@Å;"window_wrap_border_width;"window-wrap-border-width;"extjs-window-uio;;i ;T;[".o;	;i!;	@;"prefix;"prefix"window-ghost;i!;	@;
 [o;;i";{ ;	@;
 [ ;$[o;	;i";	@;"window_ghost_opacity;"window-ghost-opacity;"opacityu;-[o:Sass::Script::Variable	:

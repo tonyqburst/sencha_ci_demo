@@ -1183,26 +1183,26 @@ a56a41f1ec0608c3b56b35f8a6c6a77e41406499
 @expro:Sass::Script::List	;[	o:Sass::Script::Variable	;i ;	@:@underscored_name"ui_border_width:
 @name"ui-border-widtho;	;i ;	@;"ui_border_width;"ui-border-widtho:Sass::Script::Number:@denominator_units[ ;i ;i :@numerator_units[ ;	@:@original"0o;	;i ;	@;"ui_border_width;"ui-border-width;i :@separator:
 space;	@;	@;
-[ ;"frame-border-widtho:Sass::Tree::MixinNode;i:@keywords{"
+[ ;"frame-border-widtho:Sass::Tree::MixinNode;i:@keywords{"border_radiuso;	;i;	@;"ui_border_radius;"ui-border-radius"clso:Sass::Script::String	:
+@type:string;"tab;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"paddingo;	;i	;	@;"ui_padding;"ui-padding"
 tableo:Sass::Script::Bool;T;i
-;	@"paddingo;	;i	;	@;"ui_padding;"ui-padding"uio:Sass::Script::Operation
-:@operand1o;	;i;	@;"ui;"ui;i:@operator:	plus;	@:@operand2o:Sass::Script::String	:
-@type:string;"	-top;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"border_widtho;	;i;	@;"frame_border_width;"frame-border-width"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"clso;&	;';(;"tab;i;	@"background_directiono;&	;':identifier;"top;i;	@"border_radiuso;	;i;	@;"ui_border_radius;"ui-border-radius;	@;
+;	@"uio:Sass::Script::Operation
+:@operand1o;	;i;	@;"ui;"ui;i:@operator:	plus;	@:@operand2o; 	;!;";"	-top;i;	@"border_widtho;	;i;	@;"frame_border_width;"frame-border-width"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"background_directiono; 	;!:identifier;"top;i;	@;	@;
 [ :
-@args[ ;"x-frameo;;i;{"
-tableo; ;T;i;	@"paddingo;	;i;	@;"ui_padding;"ui-padding"uio;!
-;"o;	;i;	@;"ui;"ui;i;#;$;	@;%o;&	;';(;"-bottom;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"border_widtho:Sass::Script::Funcall
-;i;{ ;	@;*[o;	;i;	@;"frame_border_width;"frame-border-width;"rotate180"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"clso;&	;';(;"tab;i;	@"background_directiono;&	;';);"bottom;i;	@"border_radiuso;+
-;i;{ ;	@;*[o;	;i;	@;"ui_border_radius;"ui-border-radius;"rotate180;	@;
-[ ;*[ ;"x-frameo;;i$;{"img_uio;!
-;"o;	;i#;	@;"ui;"ui;i#;#;$;	@;%o;&	;';(;"	-top;i#;	@"
-tableo; ;T;i";	@"paddingo;	;i!;	@;"ui_padding;"ui-padding"uio;!
-;"o;	;i;	@;"ui;"ui;i;#;$;	@;%o;&	;';(;"
--left;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"border_widtho;	;i;	@;"frame_border_width;"frame-border-width"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"clso;&	;';(;"tab;i;	@"background_directiono;&	;';);"top;i ;	@"border_radiuso;	;i;	@;"ui_border_radius;"ui-border-radius;	@;
-[ ;*[ ;"x-frameo;;i1;{"img_uio;!
-;"o;	;i0;	@;"ui;"ui;i0;#;$;	@;%o;&	;';(;"	-top;i0;	@"
-tableo; ;T;i/;	@"paddingo;	;i.;	@;"ui_padding;"ui-padding"uio;!
-;"o;	;i(;	@;"ui;"ui;i(;#;$;	@;%o;&	;';(;"-right;i(;	@"background_gradiento;	;i,;	@;"ui_background_gradient;"ui-background-gradient"border_widtho;	;i*;	@;"frame_border_width;"frame-border-width"background_coloro;	;i+;	@;"ui_background_color;"ui-background-color"clso;&	;';(;"tab;i';	@"background_directiono;&	;';);"top;i-;	@"border_radiuso;	;i);	@;"ui_border_radius;"ui-border-radius;	@;
+@args[ ;"x-frameo;;i;{"border_radiuso:Sass::Script::Funcall
+;i;{ ;	@;*[o;	;i;	@;"ui_border_radius;"ui-border-radius;"rotate180"clso; 	;!;";"tab;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"paddingo;	;i;	@;"ui_padding;"ui-padding"
+tableo;#;T;i;	@"uio;$
+;%o;	;i;	@;"ui;"ui;i;&;';	@;(o; 	;!;";"-bottom;i;	@"border_widtho;+
+;i;{ ;	@;*[o;	;i;	@;"frame_border_width;"frame-border-width;"rotate180"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"background_directiono; 	;!;);"bottom;i;	@;	@;
+[ ;*[ ;"x-frameo;;i$;{"border_radiuso;	;i;	@;"ui_border_radius;"ui-border-radius"clso; 	;!;";"tab;i;	@"background_gradiento;	;i;	@;"ui_background_gradient;"ui-background-gradient"paddingo;	;i!;	@;"ui_padding;"ui-padding"
+tableo;#;T;i";	@"uio;$
+;%o;	;i;	@;"ui;"ui;i;&;';	@;(o; 	;!;";"
+-left;i;	@"border_widtho;	;i;	@;"frame_border_width;"frame-border-width"background_coloro;	;i;	@;"ui_background_color;"ui-background-color"img_uio;$
+;%o;	;i#;	@;"ui;"ui;i#;&;';	@;(o; 	;!;";"	-top;i#;	@"background_directiono; 	;!;);"top;i ;	@;	@;
+[ ;*[ ;"x-frameo;;i1;{"border_radiuso;	;i);	@;"ui_border_radius;"ui-border-radius"clso; 	;!;";"tab;i';	@"background_gradiento;	;i,;	@;"ui_background_gradient;"ui-background-gradient"paddingo;	;i.;	@;"ui_padding;"ui-padding"
+tableo;#;T;i/;	@"uio;$
+;%o;	;i(;	@;"ui;"ui;i(;&;';	@;(o; 	;!;";"-right;i(;	@"border_widtho;	;i*;	@;"frame_border_width;"frame-border-width"background_coloro;	;i+;	@;"ui_background_color;"ui-background-color"img_uio;$
+;%o;	;i0;	@;"ui;"ui;i0;&;';	@;(o; 	;!;";"	-top;i0;	@"background_directiono; 	;!;);"top;i-;	@;	@;
 [ ;*[ ;"x-frameo:Sass::Tree::RuleNode:
 @tabsi ;T:
 @rule[	".o;	;i3;	@;"prefix;"prefix"	tab-o;	;i3;	@;"ui;"ui;i3;	@;
@@ -1252,9 +1252,9 @@ coloru;2Ö[o:Sass::Script::Operation
  * applied by mixing the glyph color with the tab's background-color. */;i ;iR;[ ;	@;0;
 [ o;,;-i ;T;.[".o;	;iW;	@;"prefix;"prefix"ie8m &;iW;	@;
 [o;/;-i ;0;1;o;+
-;iX;{ ;	@;*[o;	;iX;	@;"ui_glyph_color;"ui-glyph-coloro;	;iX;	@;"ui_background_color;"ui-background-coloro;!
-;"o;	;iX;	@;"ui_glyph_opacity;"ui-glyph-opacity;iX;#:
-times;	@;%o;;@;ii;iX;[ ;	@;"100;"mix;iX;	@;
+;iX;{ ;	@;*[o;	;iX;	@;"ui_glyph_color;"ui-glyph-coloro;	;iX;	@;"ui_background_color;"ui-background-coloro;$
+;%o;	;iX;	@;"ui_glyph_opacity;"ui-glyph-opacity;iX;&:
+times;	@;(o;;@;ii;iX;[ ;	@;"100;"mix;iX;	@;
 [ ;["
 coloru;2R[o:Sass::Script::Variable	:
 @linei\:@options{ :@underscored_name"include_ie:
@@ -1299,7 +1299,7 @@ widthu;2ã[o:Sass::Script::Variable	:
 -left;i…;@:@children[o:Sass::Tree::PropNode;i :@prop_syntax:new:@valueo; 	;i†;@;"ui_margin;	"ui-margin;i†;@;[ ;	["margino;,;-i ;T;.[".o;	;iŠ;	@;"prefix;"prefix"	tab-o;	;iŠ;	@;"ui;"ui"-top,
     .o;	;i‹;	@;"prefix;"prefix"	tab-o;	;i‹;	@;"ui;"ui"-left,
     .o;	;iŒ;	@;"prefix;"prefix"	tab-o;	;iŒ;	@;"ui;"ui"-right;iŒ;	@;
-[o;/;-i ;0;1;o;	;[o;	;i;	@;"ui_border_width;"ui-border-widtho;&	;';);"
+[o;/;-i ;0;1;o;	;[o;	;i;	@;"ui_border_width;"ui-border-widtho; 	;!;);"
 solid;i;	@o;	;i;	@;"ui_border_bottom_color;"ui-border-bottom-color;i;;;	@;i;	@;
 [ ;["border-bottomu;2ð[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
@@ -1343,7 +1343,7 @@ coloro;	;iœ;	@;
 "ui_inner_border_color;"ui-inner-border-color;	@:@children[ :
 @args[ ;"inner-bordero;,;-i ;T;.[
 ".o;	;i¡;	@;"prefix;"prefix"	tab-o;	;i¡;	@;"ui;"ui"-bottom;i¡;	@;
-[o;/;-i ;0;1;o;	;[o;	;i¢;	@;"ui_border_width;"ui-border-widtho;&	;';);"
+[o;/;-i ;0;1;o;	;[o;	;i¢;	@;"ui_border_width;"ui-border-widtho; 	;!;);"
 solid;i¢;	@o;	;i¢;	@;"ui_border_bottom_color;"ui-border-bottom-color;i¢;;;	@;i¢;	@;
 [ ;["border-topu;2ù[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
@@ -1430,9 +1430,9 @@ angleo:Sass::Script::Number:@denominator_units[ :@valuei;iÒ:@numerato
 @args[ ;	"rotate-elemento;,;-i ;T;.[
 ".o;	;iÖ;	@;"prefix;"prefix"	tab-o;	;iÖ;	@;"ui;"ui"-icon-text-left;iÖ;	@;
 [o;,;-i ;T;.[".o;	;i×;	@;"prefix;"prefix"tab-inner;i×;	@;
-[o;/;-i ;0;1;o;!
-;"o;!
-;"o;	;iØ;	@;"ui_icon_width;"ui-icon-width;iØ;#;$;	@;%o;	;iØ;	@;"ui_icon_spacing;"ui-icon-spacing;iØ;#;$;	@;%o;+
+[o;/;-i ;0;1;o;$
+;%o;$
+;%o;	;iØ;	@;"ui_icon_width;"ui-icon-width;iØ;&;';	@;(o;	;iØ;	@;"ui_icon_spacing;"ui-icon-spacing;iØ;&;';	@;(o;+
 ;iØ;{ ;	@;*[o;	;iØ;	@;"ui_text_padding;"ui-text-padding;"	left;iØ;	@;
 [ ;["padding-leftu;2}[o:Sass::Script::Variable	:
 @lineiÜ:@options{ :@underscored_name"include_rtl:
@@ -1495,8 +1495,8 @@ coloro;;"…/* In IE8 and below when a glyph contains partially transparent p
  * applied by mixing the glyph color with the tab's background-color. */;i ;iÿ;[ ;	@;0;
 [ o;,;-i ;T;.[".o;	;i;	@;"prefix;"prefix"ie8m &;i;	@;
 [o;/;-i ;0;1;o;+
-;i;{ ;	@;*[o;	;i;	@;"ui_glyph_color_over;"ui-glyph-color-overo;	;i;	@;"ui_background_color_over;"ui-background-color-overo;!
-;"o;	;i;	@;"ui_glyph_opacity;"ui-glyph-opacity;i;#;3;	@;%o;;@;ii;i;[ ;	@;"100;"mix;i;	@;
+;i;{ ;	@;*[o;	;i;	@;"ui_glyph_color_over;"ui-glyph-color-overo;	;i;	@;"ui_background_color_over;"ui-background-color-overo;$
+;%o;	;i;	@;"ui_glyph_opacity;"ui-glyph-opacity;i;&;3;	@;(o;;@;ii;i;[ ;	@;"100;"mix;i;	@;
 [ ;["
 coloru;2œ[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
@@ -1618,13 +1618,13 @@ coloro;;"…/* In IE8 and below when a glyph contains partially transparent p
  * applied by mixing the glyph color with the tab's background-color. */;i ;i8;[ ;	@;0;
 [ o;,;-i ;T;.[".o;	;i=;	@;"prefix;"prefix"ie8m &;i=;	@;
 [o;/;-i ;0;1;o;+
-;i>;{ ;	@;*[o;	;i>;	@;"ui_glyph_color_active;"ui-glyph-color-activeo;	;i>;	@;"ui_background_color_active;"ui-background-color-activeo;!
-;"o;	;i>;	@;"ui_glyph_opacity;"ui-glyph-opacity;i>;#;3;	@;%o;;@;ii;i>;[ ;	@;"100;"mix;i>;	@;
+;i>;{ ;	@;*[o;	;i>;	@;"ui_glyph_color_active;"ui-glyph-color-activeo;	;i>;	@;"ui_background_color_active;"ui-background-color-activeo;$
+;%o;	;i>;	@;"ui_glyph_opacity;"ui-glyph-opacity;i>;&;3;	@;(o;;@;ii;i>;[ ;	@;"100;"mix;i>;	@;
 [ ;["
 coloro;,;-i ;T;.[".o;	;iC;	@;"prefix;"prefix"	tab-o;	;iC;	@;"ui;"ui"-top-active,
     .o;	;iD;	@;"prefix;"prefix"	tab-o;	;iD;	@;"ui;"ui"-left-active,
     .o;	;iE;	@;"prefix;"prefix"	tab-o;	;iE;	@;"ui;"ui"-right-active;iE;	@;
-[o;/;-i ;0;1;o;	;[o;	;iF;	@;"ui_border_width;"ui-border-widtho;&	;';);"
+[o;/;-i ;0;1;o;	;[o;	;iF;	@;"ui_border_width;"ui-border-widtho; 	;!;);"
 solid;iF;	@o;	;iF;	@;"ui_background_color_active;"ui-background-color-active;iF;;;	@;iF;	@;
 [ ;["border-bottomu;2([o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
@@ -1660,7 +1660,7 @@ iL;@	;"ui;"ui;@	;&o; 	;!;);"tab/tab-;
 iL;@	;"slicer-background-image;
 iL;@	;[ ;["background-imageo;,;-i ;T;.[
 ".o;	;iR;	@;"prefix;"prefix"	tab-o;	;iR;	@;"ui;"ui"-bottom-active;iR;	@;
-[o;/;-i ;0;1;o;	;[o;	;iS;	@;"ui_border_width;"ui-border-widtho;&	;';);"
+[o;/;-i ;0;1;o;	;[o;	;iS;	@;"ui_border_width;"ui-border-widtho; 	;!;);"
 solid;iS;	@o;	;iS;	@;"ui_background_color_active;"ui-background-color-active;iS;;;	@;iS;	@;
 [ ;["border-topu;21[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
@@ -1765,7 +1765,7 @@ coloru;2ú[o:Sass::Script::Operation
  * the icon color into the background color. (see below) */:@silenti ;i‡:@lines[ ;	@:
 @loud0:@children[ o:Sass::Tree::PropNode:
 @tabsi :@prop_syntax:new;o;	;iŠ;	@;
-"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabled;iŠ;	@;[ ;["opacityo;/;-i ;0;1;o;&;';);"	none;	@;iŒ;	@;
+"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabled;iŠ;	@;[ ;["opacityo;/;-i ;0;1;o; ;!;);"	none;	@;iŒ;	@;
 [ ;["filtero;;"ª/* override opacity from tab-icon-el
  * In IE8 and below when a glyph contains partially transparent pixels, we 
  * can't apply an opacity filter to the glyph element, because IE8m will render
@@ -1774,8 +1774,8 @@ coloru;2ú[o:Sass::Script::Operation
  * applied by mixing the glyph color with the tab's background-color. */;i ;iŒ;[ ;	@;0;
 [ o;,;-i ;T;.[".o;	;i’;	@;"prefix;"prefix"ie8m &;i’;	@;
 [o;/;-i ;0;1;o;+
-;i“;{ ;	@;*[o;	;i“;	@;"ui_glyph_color_disabled;"ui-glyph-color-disabledo;	;i“;	@;"!ui_background_color_disabled;"!ui-background-color-disabledo;!
-;"o;	;i“;	@;"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabled;i“;#;3;	@;%o;;@;ii;i“;[ ;	@;"100;"mix;i“;	@;
+;i“;{ ;	@;*[o;	;i“;	@;"ui_glyph_color_disabled;"ui-glyph-color-disabledo;	;i“;	@;"!ui_background_color_disabled;"!ui-background-color-disabledo;$
+;%o;	;i“;	@;"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabled;i“;&;3;	@;(o;;@;ii;i“;[ ;	@;"100;"mix;i“;	@;
 [ ;["
 coloro;;0;i˜;o;	;[o;	;i˜;	@;"ui_border_color_disabled;"ui-border-color-disabledo;	;i˜;	@;"ui_border_color_disabled;"ui-border-color-disabledo;	;i˜;	@;"ui_border_bottom_color;"ui-border-bottom-color;i˜;;;	@;	@;
 [ ;"disabled-border-coloro;,;-i ;T;.[".o;	;i™;	@;"prefix;"prefix"	tab-o;	;i™;	@;"ui;"ui"-top-disabled,
@@ -2279,7 +2279,7 @@ space;	@;iS;	@;[ ;["border-bottom-widtho;;i ;T;[
 widtho;/;-i ;0;1;o;	;i_;	@;"ui_closable_icon_height;"ui-closable-icon-height;i_;	@;
 [ ;["heighto;/;-i ;0;1;o;+
 ;i`;{ ;	@;*[o:&Sass::Script::StringInterpolation
-:@aftero;&	;';(;"-close;i`;	@;i`:	@mido;	;i`;	@;"ui;"ui;	@:@beforeo;&	;';(;"tab/tab-;i`;	@;"theme-background-image;i`;	@;
+:@aftero; 	;!;";"-close;i`;	@;i`:	@mido;	;i`;	@;"ui;"ui;	@:@beforeo; 	;!;";"tab/tab-;i`;	@;"theme-background-image;i`;	@;
 [ ;["background-imageu;2Ð[o:Sass::Script::Operation
 :@operand1o:Sass::Script::Variable	:
 @lineia:@options{ :@underscored_name"tab_closable_icon_opacity:
@@ -2368,8 +2368,8 @@ righto;,;-i ;T;.[".o;	;iœ;	@;"prefix;"prefix"	tab-o;	;iœ;	@;"
 minus;@;i§;:
 times;@:@operand2o:Sass::Script::Number:@denominator_units[ ;i;i§:@numerator_units[ ;@:@original"2o;;@$;i ;i§;[ ;@;"0;i§:@separator:
 space;@;i§;@;[ ;	["background-positiono;,;-i ;T;.[".o;	;i«;	@;"prefix;"prefix"	tab-o;	;i«;	@;"ui;"ui"-closable .o;	;i«;	@;"prefix;"prefix"tab-wrap;i«;	@;
-[o;/;-i ;0;1;o;!
-;"o;	;i¬;	@;"ui_closable_icon_width;"ui-closable-icon-width;i¬;#;$;	@;%o;	;i¬;	@;"ui_closable_icon_spacing;"ui-closable-icon-spacing;i¬;	@;
+[o;/;-i ;0;1;o;$
+;%o;	;i¬;	@;"ui_closable_icon_width;"ui-closable-icon-width;i¬;&;';	@;(o;	;i¬;	@;"ui_closable_icon_spacing;"ui-closable-icon-spacing;i¬;	@;
 [ ;["padding-rightu;2ó[o:Sass::Script::Variable	:
 @linei¯:@options{ :@underscored_name"include_rtl:
 @name"include-rtl0[o:Sass::Tree::RuleNode:
@@ -2415,9 +2415,9 @@ rightu:Sass::Tree::IfNode*[o:Sass::Script::Variable	:
 @rule[".o; 	;iÍ;@;"prefix;	"prefix"	rtl.o; 	;iÍ;@;"prefix;	"prefix"	tab-o; 	;iÍ;@;"ui;	"ui"-closable-right .o; 	;iÍ;@;"prefix;	"prefix"tab-icon-el;iÍ;@:@children[o:Sass::Tree::PropNode;i :@prop_syntax:new:@valueo:Sass::Script::String:
 @type:identifier;"	auto;@;iÎ;@;[ ;	["
 righto;;i ;;;o;;;;"0;@;iÏ;@;[ ;	["	lefto;;iÖ;{ ;	@;
-[ ;*[o: Sass::Script::Interpolation;5o;&	;';);"-top-over;iÖ;	@;iÖ:@originally_textF;6o;	;iÖ;	@;"ui;"ui;	@:@whitespace_after0;7o;&	;';);"	tab-;iÖ;	@:@whitespace_before0;"x-slicero;;i×;{ ;	@;
-[ ;*[o;8;5o;&	;';);"-bottom-over;i×;	@;i×;9F;6o;	;i×;	@;"ui;"ui;	@;:0;7o;&	;';);"	tab-;i×;	@;;0;"x-slicero;;iØ;{ ;	@;
-[ ;*[o;8;5o;&	;';);"-top-active;iØ;	@;iØ;9F;6o;	;iØ;	@;"ui;"ui;	@;:0;7o;&	;';);"	tab-;iØ;	@;;0;"x-slicero;;iÙ;{ ;	@;
-[ ;*[o;8;5o;&	;';);"-bottom-active;iÙ;	@;iÙ;9F;6o;	;iÙ;	@;"ui;"ui;	@;:0;7o;&	;';);"	tab-;iÙ;	@;;0;"x-slicero;;iÚ;{ ;	@;
-[ ;*[o;8;5o;&	;';);"-top-disabled;iÚ;	@;iÚ;9F;6o;	;iÚ;	@;"ui;"ui;	@;:0;7o;&	;';);"	tab-;iÚ;	@;;0;"x-slicero;;iÛ;{ ;	@;
-[ ;*[o;8;5o;&	;';);"-bottom-disabled;iÛ;	@;iÛ;9F;6o;	;iÛ;	@;"ui;"ui;	@;:0;7o;&	;';);"	tab-;iÛ;	@;;0;"x-slicer;*[?[o;;	{ ;"ui;"ui0[o;;	@©;"ui_background_color;"ui-background-coloro;	;iÀ;	@©;"tab_base_color;"tab-base-color[o;;	@©;"ui_background_color_over;"ui-background-color-overo;	;iÁ;	@©;"tab_base_color_over;"tab-base-color-over[o;;	@©;"ui_background_color_active;"ui-background-color-activeo;	;iÂ;	@©;"tab_base_color_active;"tab-base-color-active[o;;	@©;"!ui_background_color_disabled;"!ui-background-color-disabledo;	;iÃ;	@©;"tab_base_color_disabled;"tab-base-color-disabled[o;;	@©;"ui_border_radius;"ui-border-radiuso;	;iÄ;	@©;"tab_border_radius;"tab-border-radius[o;;	@©;"ui_border_width;"ui-border-widtho;	;iÅ;	@©;"tab_border_width;"tab-border-width[o;;	@©;"ui_margin;"ui-margino;	;iÆ;	@©;"tab_margin;"tab-margin[o;;	@©;"ui_padding;"ui-paddingo;	;iÇ;	@©;"tab_padding;"tab-padding[o;;	@©;"ui_text_padding;"ui-text-paddingo;	;iÈ;	@©;"tab_text_padding;"tab-text-padding[o;;	@©;"ui_border_color;"ui-border-coloro;	;iÉ;	@©;"tab_border_color;"tab-border-color[o;;	@©;"ui_border_color_over;"ui-border-color-overo;	;iÊ;	@©;"tab_border_color_over;"tab-border-color-over[o;;	@©;"ui_border_color_active;"ui-border-color-activeo;	;iË;	@©;"tab_border_color_active;"tab-border-color-active[o;;	@©;"ui_border_color_disabled;"ui-border-color-disabledo;	;iÌ;	@©;"tab_border_color_disabled;"tab-border-color-disabled[o;;	@©;"ui_cursor;"ui-cursoro;	;iÍ;	@©;"tab_cursor;"tab-cursor[o;;	@©;"ui_cursor_disabled;"ui-cursor-disabledo;	;iÎ;	@©;"tab_cursor_disabled;"tab-cursor-disabled[o;;	@©;"ui_font_size;"ui-font-sizeo;	;iÏ;	@©;"tab_font_size;"tab-font-size[o;;	@©;"ui_font_size_over;"ui-font-size-overo;	;iÐ;	@©;"tab_font_size_over;"tab-font-size-over[o;;	@©;"ui_font_size_active;"ui-font-size-activeo;	;iÑ;	@©;"tab_font_size_active;"tab-font-size-active[o;;	@©;"ui_font_size_disabled;"ui-font-size-disabledo;	;iÒ;	@©;"tab_font_size_disabled;"tab-font-size-disabled[o;;	@©;"ui_font_weight;"ui-font-weighto;	;iÓ;	@©;"tab_font_weight;"tab-font-weight[o;;	@©;"ui_font_weight_over;"ui-font-weight-overo;	;iÔ;	@©;"tab_font_weight_over;"tab-font-weight-over[o;;	@©;"ui_font_weight_active;"ui-font-weight-activeo;	;iÕ;	@©;"tab_font_weight_active;"tab-font-weight-active[o;;	@©;"ui_font_weight_disabled;"ui-font-weight-disabledo;	;iÖ;	@©;"tab_font_weight_disabled;"tab-font-weight-disabled[o;;	@©;"ui_font_family;"ui-font-familyo;	;i×;	@©;"tab_font_family;"tab-font-family[o;;	@©;"ui_font_family_over;"ui-font-family-overo;	;iØ;	@©;"tab_font_family_over;"tab-font-family-over[o;;	@©;"ui_font_family_active;"ui-font-family-activeo;	;iÙ;	@©;"tab_font_family_active;"tab-font-family-active[o;;	@©;"ui_font_family_disabled;"ui-font-family-disabledo;	;iÚ;	@©;"tab_font_family_disabled;"tab-font-family-disabled[o;;	@©;"ui_line_height;"ui-line-heighto;	;iÛ;	@©;"tab_line_height;"tab-line-height[o;;	@©;"ui_color;"ui-coloro;	;iÜ;	@©;"tab_color;"tab-color[o;;	@©;"ui_color_over;"ui-color-overo;	;iÝ;	@©;"tab_color_over;"tab-color-over[o;;	@©;"ui_color_active;"ui-color-activeo;	;iÞ;	@©;"tab_color_active;"tab-color-active[o;;	@©;"ui_color_disabled;"ui-color-disabledo;	;iß;	@©;"tab_color_disabled;"tab-color-disabled[o;;	@©;"ui_background_gradient;"ui-background-gradiento;	;ià;	@©;"tab_background_gradient;"tab-background-gradient[o;;	@©;" ui_background_gradient_over;" ui-background-gradient-overo;	;iá;	@©;"!tab_background_gradient_over;"!tab-background-gradient-over[o;;	@©;""ui_background_gradient_active;""ui-background-gradient-activeo;	;iâ;	@©;"#tab_background_gradient_active;"#tab-background-gradient-active[o;;	@©;"$ui_background_gradient_disabled;"$ui-background-gradient-disabledo;	;iã;	@©;"%tab_background_gradient_disabled;"%tab-background-gradient-disabled[o;;	@©;"ui_inner_border_width;"ui-inner-border-widtho;	;iå;	@©;"tab_inner_border_width;"tab-inner-border-width[o;;	@©;"ui_inner_border_color;"ui-inner-border-coloro;	;iæ;	@©;"tab_inner_border_color;"tab-inner-border-color[o;;	@©;"ui_icon_width;"ui-icon-widtho;	;iè;	@©;"tab_icon_width;"tab-icon-width[o;;	@©;"ui_icon_height;"ui-icon-heighto;	;ié;	@©;"tab_icon_height;"tab-icon-height[o;;	@©;"ui_icon_spacing;"ui-icon-spacingo;	;iê;	@©;"tab_icon_spacing;"tab-icon-spacing[o;;	@©;" ui_icon_background_position;" ui-icon-background-positiono;	;ië;	@©;"!tab_icon_background_position;"!tab-icon-background-position[o;;	@©;"ui_glyph_color;"ui-glyph-coloro;	;ií;	@©;"tab_glyph_color;"tab-glyph-color[o;;	@©;"ui_glyph_color_over;"ui-glyph-color-overo;	;iî;	@©;"tab_glyph_color_over;"tab-glyph-color-over[o;;	@©;"ui_glyph_color_active;"ui-glyph-color-activeo;	;iï;	@©;"tab_glyph_color_active;"tab-glyph-color-active[o;;	@©;"ui_glyph_color_disabled;"ui-glyph-color-disabledo;	;ið;	@©;"tab_glyph_color_disabled;"tab-glyph-color-disabled[o;;	@©;"ui_glyph_opacity;"ui-glyph-opacityo;	;iñ;	@©;"tab_glyph_opacity;"tab-glyph-opacity[o;;	@©;"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabledo;	;iò;	@©;"tab_glyph_opacity_disabled;"tab-glyph-opacity-disabled[o;;	@©;"ui_opacity_disabled;"ui-opacity-disabledo;	;iô;	@©;"tab_opacity_disabled;"tab-opacity-disabled[o;;	@©;"ui_text_opacity_disabled;"ui-text-opacity-disabledo;	;iõ;	@©;"tab_text_opacity_disabled;"tab-text-opacity-disabled[o;;	@©;"ui_icon_opacity_disabled;"ui-icon-opacity-disabledo;	;iö;	@©;"tab_icon_opacity_disabled;"tab-icon-opacity-disabled[o;;	@©;"ui_closable_icon_width;"ui-closable-icon-widtho;	;iø;	@©;"tab_closable_icon_width;"tab-closable-icon-width[o;;	@©;"ui_closable_icon_height;"ui-closable-icon-heighto;	;iù;	@©;"tab_closable_icon_height;"tab-closable-icon-height[o;;	@©;"ui_closable_icon_top;"ui-closable-icon-topo;	;iú;	@©;"tab_closable_icon_top;"tab-closable-icon-top[o;;	@©;"ui_closable_icon_right;"ui-closable-icon-righto;	;iû;	@©;"tab_closable_icon_right;"tab-closable-icon-right[o;;	@©;"ui_closable_icon_spacing;"ui-closable-icon-spacingo;	;iü;	@©;"tab_closable_icon_spacing;"tab-closable-icon-spacing[o;;	@©;"ui_border_bottom_color;"ui-border-bottom-coloro;	;iþ;	@©;"tabbar_strip_border_color;"tabbar-strip-border-color;"extjs-tab-ui
+[ ;*[o: Sass::Script::Interpolation;5o; 	;!;);"-top-over;iÖ;	@;iÖ:@originally_textF;6o;	;iÖ;	@;"ui;"ui;	@:@whitespace_after0;7o; 	;!;);"	tab-;iÖ;	@:@whitespace_before0;"x-slicero;;i×;{ ;	@;
+[ ;*[o;8;5o; 	;!;);"-bottom-over;i×;	@;i×;9F;6o;	;i×;	@;"ui;"ui;	@;:0;7o; 	;!;);"	tab-;i×;	@;;0;"x-slicero;;iØ;{ ;	@;
+[ ;*[o;8;5o; 	;!;);"-top-active;iØ;	@;iØ;9F;6o;	;iØ;	@;"ui;"ui;	@;:0;7o; 	;!;);"	tab-;iØ;	@;;0;"x-slicero;;iÙ;{ ;	@;
+[ ;*[o;8;5o; 	;!;);"-bottom-active;iÙ;	@;iÙ;9F;6o;	;iÙ;	@;"ui;"ui;	@;:0;7o; 	;!;);"	tab-;iÙ;	@;;0;"x-slicero;;iÚ;{ ;	@;
+[ ;*[o;8;5o; 	;!;);"-top-disabled;iÚ;	@;iÚ;9F;6o;	;iÚ;	@;"ui;"ui;	@;:0;7o; 	;!;);"	tab-;iÚ;	@;;0;"x-slicero;;iÛ;{ ;	@;
+[ ;*[o;8;5o; 	;!;);"-bottom-disabled;iÛ;	@;iÛ;9F;6o;	;iÛ;	@;"ui;"ui;	@;:0;7o; 	;!;);"	tab-;iÛ;	@;;0;"x-slicer;*[?[o;;	{ ;"ui;"ui0[o;;	@©;"ui_background_color;"ui-background-coloro;	;iÀ;	@©;"tab_base_color;"tab-base-color[o;;	@©;"ui_background_color_over;"ui-background-color-overo;	;iÁ;	@©;"tab_base_color_over;"tab-base-color-over[o;;	@©;"ui_background_color_active;"ui-background-color-activeo;	;iÂ;	@©;"tab_base_color_active;"tab-base-color-active[o;;	@©;"!ui_background_color_disabled;"!ui-background-color-disabledo;	;iÃ;	@©;"tab_base_color_disabled;"tab-base-color-disabled[o;;	@©;"ui_border_radius;"ui-border-radiuso;	;iÄ;	@©;"tab_border_radius;"tab-border-radius[o;;	@©;"ui_border_width;"ui-border-widtho;	;iÅ;	@©;"tab_border_width;"tab-border-width[o;;	@©;"ui_margin;"ui-margino;	;iÆ;	@©;"tab_margin;"tab-margin[o;;	@©;"ui_padding;"ui-paddingo;	;iÇ;	@©;"tab_padding;"tab-padding[o;;	@©;"ui_text_padding;"ui-text-paddingo;	;iÈ;	@©;"tab_text_padding;"tab-text-padding[o;;	@©;"ui_border_color;"ui-border-coloro;	;iÉ;	@©;"tab_border_color;"tab-border-color[o;;	@©;"ui_border_color_over;"ui-border-color-overo;	;iÊ;	@©;"tab_border_color_over;"tab-border-color-over[o;;	@©;"ui_border_color_active;"ui-border-color-activeo;	;iË;	@©;"tab_border_color_active;"tab-border-color-active[o;;	@©;"ui_border_color_disabled;"ui-border-color-disabledo;	;iÌ;	@©;"tab_border_color_disabled;"tab-border-color-disabled[o;;	@©;"ui_cursor;"ui-cursoro;	;iÍ;	@©;"tab_cursor;"tab-cursor[o;;	@©;"ui_cursor_disabled;"ui-cursor-disabledo;	;iÎ;	@©;"tab_cursor_disabled;"tab-cursor-disabled[o;;	@©;"ui_font_size;"ui-font-sizeo;	;iÏ;	@©;"tab_font_size;"tab-font-size[o;;	@©;"ui_font_size_over;"ui-font-size-overo;	;iÐ;	@©;"tab_font_size_over;"tab-font-size-over[o;;	@©;"ui_font_size_active;"ui-font-size-activeo;	;iÑ;	@©;"tab_font_size_active;"tab-font-size-active[o;;	@©;"ui_font_size_disabled;"ui-font-size-disabledo;	;iÒ;	@©;"tab_font_size_disabled;"tab-font-size-disabled[o;;	@©;"ui_font_weight;"ui-font-weighto;	;iÓ;	@©;"tab_font_weight;"tab-font-weight[o;;	@©;"ui_font_weight_over;"ui-font-weight-overo;	;iÔ;	@©;"tab_font_weight_over;"tab-font-weight-over[o;;	@©;"ui_font_weight_active;"ui-font-weight-activeo;	;iÕ;	@©;"tab_font_weight_active;"tab-font-weight-active[o;;	@©;"ui_font_weight_disabled;"ui-font-weight-disabledo;	;iÖ;	@©;"tab_font_weight_disabled;"tab-font-weight-disabled[o;;	@©;"ui_font_family;"ui-font-familyo;	;i×;	@©;"tab_font_family;"tab-font-family[o;;	@©;"ui_font_family_over;"ui-font-family-overo;	;iØ;	@©;"tab_font_family_over;"tab-font-family-over[o;;	@©;"ui_font_family_active;"ui-font-family-activeo;	;iÙ;	@©;"tab_font_family_active;"tab-font-family-active[o;;	@©;"ui_font_family_disabled;"ui-font-family-disabledo;	;iÚ;	@©;"tab_font_family_disabled;"tab-font-family-disabled[o;;	@©;"ui_line_height;"ui-line-heighto;	;iÛ;	@©;"tab_line_height;"tab-line-height[o;;	@©;"ui_color;"ui-coloro;	;iÜ;	@©;"tab_color;"tab-color[o;;	@©;"ui_color_over;"ui-color-overo;	;iÝ;	@©;"tab_color_over;"tab-color-over[o;;	@©;"ui_color_active;"ui-color-activeo;	;iÞ;	@©;"tab_color_active;"tab-color-active[o;;	@©;"ui_color_disabled;"ui-color-disabledo;	;iß;	@©;"tab_color_disabled;"tab-color-disabled[o;;	@©;"ui_background_gradient;"ui-background-gradiento;	;ià;	@©;"tab_background_gradient;"tab-background-gradient[o;;	@©;" ui_background_gradient_over;" ui-background-gradient-overo;	;iá;	@©;"!tab_background_gradient_over;"!tab-background-gradient-over[o;;	@©;""ui_background_gradient_active;""ui-background-gradient-activeo;	;iâ;	@©;"#tab_background_gradient_active;"#tab-background-gradient-active[o;;	@©;"$ui_background_gradient_disabled;"$ui-background-gradient-disabledo;	;iã;	@©;"%tab_background_gradient_disabled;"%tab-background-gradient-disabled[o;;	@©;"ui_inner_border_width;"ui-inner-border-widtho;	;iå;	@©;"tab_inner_border_width;"tab-inner-border-width[o;;	@©;"ui_inner_border_color;"ui-inner-border-coloro;	;iæ;	@©;"tab_inner_border_color;"tab-inner-border-color[o;;	@©;"ui_icon_width;"ui-icon-widtho;	;iè;	@©;"tab_icon_width;"tab-icon-width[o;;	@©;"ui_icon_height;"ui-icon-heighto;	;ié;	@©;"tab_icon_height;"tab-icon-height[o;;	@©;"ui_icon_spacing;"ui-icon-spacingo;	;iê;	@©;"tab_icon_spacing;"tab-icon-spacing[o;;	@©;" ui_icon_background_position;" ui-icon-background-positiono;	;ië;	@©;"!tab_icon_background_position;"!tab-icon-background-position[o;;	@©;"ui_glyph_color;"ui-glyph-coloro;	;ií;	@©;"tab_glyph_color;"tab-glyph-color[o;;	@©;"ui_glyph_color_over;"ui-glyph-color-overo;	;iî;	@©;"tab_glyph_color_over;"tab-glyph-color-over[o;;	@©;"ui_glyph_color_active;"ui-glyph-color-activeo;	;iï;	@©;"tab_glyph_color_active;"tab-glyph-color-active[o;;	@©;"ui_glyph_color_disabled;"ui-glyph-color-disabledo;	;ið;	@©;"tab_glyph_color_disabled;"tab-glyph-color-disabled[o;;	@©;"ui_glyph_opacity;"ui-glyph-opacityo;	;iñ;	@©;"tab_glyph_opacity;"tab-glyph-opacity[o;;	@©;"ui_glyph_opacity_disabled;"ui-glyph-opacity-disabledo;	;iò;	@©;"tab_glyph_opacity_disabled;"tab-glyph-opacity-disabled[o;;	@©;"ui_opacity_disabled;"ui-opacity-disabledo;	;iô;	@©;"tab_opacity_disabled;"tab-opacity-disabled[o;;	@©;"ui_text_opacity_disabled;"ui-text-opacity-disabledo;	;iõ;	@©;"tab_text_opacity_disabled;"tab-text-opacity-disabled[o;;	@©;"ui_icon_opacity_disabled;"ui-icon-opacity-disabledo;	;iö;	@©;"tab_icon_opacity_disabled;"tab-icon-opacity-disabled[o;;	@©;"ui_closable_icon_width;"ui-closable-icon-widtho;	;iø;	@©;"tab_closable_icon_width;"tab-closable-icon-width[o;;	@©;"ui_closable_icon_height;"ui-closable-icon-heighto;	;iù;	@©;"tab_closable_icon_height;"tab-closable-icon-height[o;;	@©;"ui_closable_icon_top;"ui-closable-icon-topo;	;iú;	@©;"tab_closable_icon_top;"tab-closable-icon-top[o;;	@©;"ui_closable_icon_right;"ui-closable-icon-righto;	;iû;	@©;"tab_closable_icon_right;"tab-closable-icon-right[o;;	@©;"ui_closable_icon_spacing;"ui-closable-icon-spacingo;	;iü;	@©;"tab_closable_icon_spacing;"tab-closable-icon-spacing[o;;	@©;"ui_border_bottom_color;"ui-border-bottom-coloro;	;iþ;	@©;"tabbar_strip_border_color;"tabbar-strip-border-color;"extjs-tab-ui

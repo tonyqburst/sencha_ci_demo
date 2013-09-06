@@ -537,8 +537,15 @@ $include-ext-window-window: true;
 $include-extci-application: true;
 $include-extci-app-application: true;
 $include-extci-controller-main: true;
+$include-extci-controller-user-useradmin: true;
 $include-extci-view-main: true;
+$include-extci-view-maintabpanel: true;
+$include-extci-view-maintoolbar: true;
+$include-extci-view-mainviewport: true;
 $include-extci-view-viewport: true;
+$include-extci-view-user-useradminpanel: true;
+$include-extci-view-user-userform: true;
+$include-extci-view-user-userlist: true;
 $include-extthemeneptune-component: true;
 $include-extthemeneptune-container-buttongroup: true;
 $include-extthemeneptune-form-field-htmleditor: true;
@@ -563,6 +570,10 @@ $include-extthemeneptune-toolbar-toolbar: true;
 @import '../../../ext/packages/ext-theme-neptune/sass/etc/all';
 /* including package senchaci-theme */
 @import '../../../packages/senchaci-theme/sass/etc/all';
+/* including package senchaci-theme */
+@import '../../../packages/senchaci-theme/sass/var/Component';
+@import '../../../packages/senchaci-theme/sass/var/tab/Tab';
+@import '../../../packages/senchaci-theme/sass/var/tab/Bar';
 /* including package ext-theme-neptune */
 @import '../../../ext/packages/ext-theme-neptune/sass/var/Component';
 @import '../../../ext/packages/ext-theme-neptune/sass/var/LoadMask';

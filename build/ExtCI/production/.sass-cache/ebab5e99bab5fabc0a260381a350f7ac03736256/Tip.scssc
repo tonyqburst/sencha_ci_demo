@@ -346,14 +346,14 @@
 :@operand1o:Sass::Script::Variable	:
 @linei]:@options{ :@underscored_name"ui_border_radius:
 @name"ui-border-radius;i]:@operator:neq;	@:@operand2o:Sass::Script::String	:
-@type:identifier:@value"	null;i];	@0[o:Sass::Tree::MixinNode;if:@keywords{"
+@type:identifier:@value"	null;i];	@0[o:Sass::Tree::MixinNode;if:@keywords{"border_radiuso;	;ia;	@;
+"ui_border_radius;"ui-border-radius"clso;	;:string;"tip;i_;	@"background_gradiento;	;id;	@;
+"ui_background_gradient;"ui-background-gradient"
 tableo:Sass::Script::Bool;T;ie;	@"uio:&Sass::Script::StringInterpolation
-:@aftero;	;:string;" ;i`;	@;i`:	@mido;	;i`;	@;
-"ui_label;"ui-label;	@:@beforeo;	;;;" ;i`;	@"background_gradiento;	;id;	@;
-"ui_background_gradient;"ui-background-gradient"border_widtho;	;ib;	@;
+:@aftero;	;;;" ;i`;	@;i`:	@mido;	;i`;	@;
+"ui_label;"ui-label;	@:@beforeo;	;;;" ;i`;	@"border_widtho;	;ib;	@;
 "ui_border_width;"ui-border-width"background_coloro;	;ic;	@;
-"ui_background_color;"ui-background-color"clso;	;;;"tip;i_;	@"border_radiuso;	;ia;	@;
-"ui_border_radius;"ui-border-radius;	@:@children[ :
+"ui_background_color;"ui-background-color;	@:@children[ :
 @args[ ;"x-frameo:Sass::Tree::RuleNode:
 @tabsi ;T:
 @rule[	".o:Sass::Script::Variable	;ii;	@:@underscored_name"prefix:
@@ -513,8 +513,8 @@ color;ií;@;ií:@operator:single_eq;@:@operand2o;	;;;"	pink;ií;@
 @linei÷:@options{ :@underscored_name" include_ext_form_field_base:
 @name" include-ext-form-field-base0[u:Sass::Tree::IfNode[o:Sass::Script::Variable	:
 @lineiø:@options{ :@underscored_name" include_tip_form_invalid_ui:
-@name" include-tip-form-invalid-ui0[o:Sass::Tree::MixinNode;i:@keywords{"ui_background_coloro; 	;iþ;@;"tip_error_background_color;	"tip-error-background-color"ui_inner_border_widtho; 	;i;@;"!tip_error_inner_border_width;	"!tip-error-inner-border-width"ui_body_font_weighto; 	;i;@;"tip_error_body_font_weight;	"tip-error-body-font-weight"ui_body_paddingo; 	;iÿ;@;"tip_error_body_padding;	"tip-error-body-padding"ui_body_coloro; 	;i ;@;"tip_error_body_color;	"tip-error-body-color"ui_border_coloro; 	;iû;@;"tip_error_border_color;	"tip-error-border-color"ui_border_radiuso; 	;iý;@;"tip_error_border_radius;	"tip-error-border-radius"ui_body_font_sizeo; 	;i;@;"tip_error_body_font_size;	"tip-error-body-font-size"ui_labelo:Sass::Script::String	:
-@type:string:@value"form-invalid;iú;@"ui_body_link_coloro; 	;i;@;"tip_error_body_link_color;	"tip-error-body-link-color"ui_border_widtho; 	;iü;@;"tip_error_border_width;	"tip-error-border-width"ui_inner_border_coloro; 	;i;@;"!tip_error_inner_border_color;	"!tip-error-inner-border-color;@:@children[ :
+@name" include-tip-form-invalid-ui0[o:Sass::Tree::MixinNode;i:@keywords{"ui_body_font_sizeo; 	;i;@;"tip_error_body_font_size;	"tip-error-body-font-size"ui_background_coloro; 	;iþ;@;"tip_error_background_color;	"tip-error-background-color"ui_body_paddingo; 	;iÿ;@;"tip_error_body_padding;	"tip-error-body-padding"ui_border_coloro; 	;iû;@;"tip_error_border_color;	"tip-error-border-color"ui_body_coloro; 	;i ;@;"tip_error_body_color;	"tip-error-body-color"ui_inner_border_widtho; 	;i;@;"!tip_error_inner_border_width;	"!tip-error-inner-border-width"ui_body_link_coloro; 	;i;@;"tip_error_body_link_color;	"tip-error-body-link-color"ui_border_widtho; 	;iü;@;"tip_error_border_width;	"tip-error-border-width"ui_inner_border_coloro; 	;i;@;"!tip_error_inner_border_color;	"!tip-error-inner-border-color"ui_border_radiuso; 	;iý;@;"tip_error_border_radius;	"tip-error-border-radius"ui_body_font_weighto; 	;i;@;"tip_error_body_font_weight;	"tip-error-body-font-weight"ui_labelo:Sass::Script::String	:
+@type:string:@value"form-invalid;iú;@;@:@children[ :
 @args[ ;	"extjs-tip-uio:Sass::Tree::RuleNode:
 @tabsi :@has_childrenT:
 @rule[".o; 	;i	;@;"prefix;	"prefix"tip-body-form-invalid;i	;@:@children[o:Sass::Tree::PropNode;i :@prop_syntax:new:@valueo:Sass::Script::String:

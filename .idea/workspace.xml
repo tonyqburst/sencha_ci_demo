@@ -2,23 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7444276-2c1b-4f71-8c5c-390d494b0054" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/MainTabpanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/MainToolbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/MainViewport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Viewport.js" afterPath="$PROJECT_DIR$/app/view/Viewport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/user/UserAdmin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/user/UserAdminPanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/user/UserForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/user/UserList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/store/user/UserList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/user/UserList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/efa25ba1aa2b2f5dcf4c57b5b452a40bd0024e6b/Bar.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/efa25ba1aa2b2f5dcf4c57b5b452a40bd0024e6b/Bar.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/b783ec9182f2734ebf6992880d2e253cdc3e6cde/Button.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/b783ec9182f2734ebf6992880d2e253cdc3e6cde/Button.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/c9892abbdfc73599b138b1eb3ed45bd0f29d42ba/Button.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/c9892abbdfc73599b138b1eb3ed45bd0f29d42ba/Button.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/fc69da8d55797366b2e18620ba433f9aee02b767/ButtonGroup.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/fc69da8d55797366b2e18620ba433f9aee02b767/ButtonGroup.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f7de5c3777c7a048d999e1f7baab0476c0a849e7/ExtCI-example.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f7de5c3777c7a048d999e1f7baab0476c0a849e7/ExtCI-example.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/bb4fd0e82b8dfb1d13efae9400da3ad9da7ea3fb/Panel.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/bb4fd0e82b8dfb1d13efae9400da3ad9da7ea3fb/Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/fdb786049f580ab5522a3e15d5cebfde38dac591/Panel.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/fdb786049f580ab5522a3e15d5cebfde38dac591/Panel.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/efa25ba1aa2b2f5dcf4c57b5b452a40bd0024e6b/Tab.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/efa25ba1aa2b2f5dcf4c57b5b452a40bd0024e6b/Tab.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-disabled-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-focus-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-over-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-pressed-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-large-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-disabled-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-focus-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-over-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-pressed-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-medium-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-disabled-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-focus-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-over-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-fbg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-fbg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-pressed-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn/btn-default-small-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-notitle-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-notitle-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-notitle-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-notitle-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/btn-group/btn-group-default-framed-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/menu/menu-item-active-bg.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/menu/menu-item-active-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel/panel-default-framed-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel/panel-default-framed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel/panel-default-framed-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel/panel-default-framed-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-left-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-right-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-collapsed-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-left-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-right-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/panel-header/panel-header-default-framed-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-active-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-active-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-active-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-active-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-disabled-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-disabled-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-over-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-over-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-over-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-active-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-active-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-active-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-active-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-disabled-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-disabled-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-over-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-over-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-over-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tab/tab-default-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/theme-capture.png" afterPath="$PROJECT_DIR$/build/ExtCI/production/theme-capture.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-default-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-default-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-default-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-default-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-form-invalid-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-form-invalid-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-form-invalid-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/tip/tip-form-invalid-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window/window-default-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window/window-default-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window/window-default-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window/window-default-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-bottom-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-bottom-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-left-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-right-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-collapsed-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-left-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-right-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-top-sides.gif" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/images/window-header/window-header-default-top-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/ExtCI-all.css" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/ExtCI-all.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/ExtCI-all.scss" afterPath="$PROJECT_DIR$/build/ExtCI/production/ExtCI-all.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f7de5c3777c7a048d999e1f7baab0476c0a849e7/ExtCI-all.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f7de5c3777c7a048d999e1f7baab0476c0a849e7/ExtCI-all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/resources/ExtCI-example.css" afterPath="$PROJECT_DIR$/build/ExtCI/production/resources/ExtCI-example.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/ExtCI-example.scss" afterPath="$PROJECT_DIR$/build/ExtCI/production/ExtCI-example.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/MainViewport.js" afterPath="$PROJECT_DIR$/app/view/MainViewport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f80208a6e542e437c4e3e3e90445ba818b471c1e/RowEditing.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/f80208a6e542e437c4e3e3e90445ba818b471c1e/RowEditing.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/ebab5e99bab5fabc0a260381a350f7ac03736256/Tip.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/ebab5e99bab5fabc0a260381a350f7ac03736256/Tip.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/da7a2aa8e294e38ab54068bd12420e5d01b5ba2d/Window.scssc" afterPath="$PROJECT_DIR$/build/ExtCI/production/.sass-cache/da7a2aa8e294e38ab54068bd12420e5d01b5ba2d/Window.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/all-classes.js" afterPath="$PROJECT_DIR$/build/ExtCI/production/all-classes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application.js" afterPath="$PROJECT_DIR$/app/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.js" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ExtCI/production/theme-capture.json" afterPath="$PROJECT_DIR$/build/ExtCI/production/theme-capture.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sencha_ci_demo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378388107666" ignored="false" />
+    <file path="/Dummy.txt" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378450082751" ignored="false" />
     <file path="/sencha.cfg" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378388178552" ignored="false" />
     <file path="/bootstrap.css" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378388272353" ignored="false" />
     <file path="/Component.scss" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378389044872" ignored="false" />
     <file path="/app.js" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378389541260" ignored="false" />
     <file path="/Viewport.js" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378389652826" ignored="false" />
     <file path="/a.dummy" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378389956259" ignored="false" />
+    <file path="/UserAdminPanel.js" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378450516899" ignored="false" />
+    <file path="/UserList.js" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378452685015" ignored="false" />
+    <file path="/UserAdmin.js" changelist="b7444276-2c1b-4f71-8c5c-390d494b0054" time="1378457754751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +198,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
+      <file leaf-file-name="MainViewport.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/MainViewport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="25" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="28" column="22" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainViewport.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/view/MainViewport.js">
+      <file leaf-file-name="UserAdminPanel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/user/UserAdminPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-0.640625">
+            <state line="20" column="12" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/user/UserList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserForm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/user/UserForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserList.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/store/user/UserList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="28" selection-start="791" selection-end="791" vertical-scroll-proportion="0.13533835">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/model/user/UserList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,14 +264,14 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+            <state line="1" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainToolbar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/MainToolbar.js">
+      <file leaf-file-name="UserAdmin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/user/UserAdmin.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
@@ -101,26 +306,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/bootstrap.css" />
-        <option value="$PROJECT_DIR$/packages/senchaci-theme/package.json" />
-        <option value="$PROJECT_DIR$/.sencha/app/sencha.cfg" />
         <option value="$PROJECT_DIR$/packages/senchaci-theme/sass/var/Component.scss" />
         <option value="$PROJECT_DIR$/packages/senchaci-theme/sass/var/tab/Bar.scss" />
         <option value="$PROJECT_DIR$/packages/senchaci-theme/sass/var/tab/Tab.scss" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/application.js" />
         <option value="$PROJECT_DIR$/app/view/MainTabpanel.js" />
         <option value="$PROJECT_DIR$/app/view/MainToolbar.js" />
-        <option value="$PROJECT_DIR$/app/view/MainViewport.js" />
         <option value="$PROJECT_DIR$/app/view/Viewport.js" />
+        <option value="$PROJECT_DIR$/app/view/MainViewport.js" />
+        <option value="$PROJECT_DIR$/app/view/user/UserAdminPanel.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/model/user/UserLists.js" />
+        <option value="$PROJECT_DIR$/app/model/user/UserList.js" />
+        <option value="$PROJECT_DIR$/app/view/user/UserList.js" />
+        <option value="$PROJECT_DIR$/app/view/user/UserForm.js" />
+        <option value="$PROJECT_DIR$/app/controller/user/UserAdmin.js" />
+        <option value="$PROJECT_DIR$/app/application.js" />
+        <option value="$PROJECT_DIR$/app/store/user/UserList.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="254" />
-    <option name="y" value="73" />
-    <option name="width" value="991" />
-    <option name="height" value="595" />
+    <option name="x" value="618" />
+    <option name="y" value="122" />
+    <option name="width" value="748" />
+    <option name="height" value="588" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -209,6 +418,148 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sencha_ci_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".sencha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -224,6 +575,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="269351c8-db70-4e9a-a253-6137f922e3a9">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="876aaad7-5658-483b-951f-fd047f99d8d8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -252,25 +621,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="254" y="73" width="991" height="595" extended-state="0" />
+    <frame x="618" y="122" width="748" height="588" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924318" sideWeight="0.7468355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3302139" sideWeight="0.7468355" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25316456" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -334,74 +703,29 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="240" selection-end="247" vertical-scroll-proportion="0.16741072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/senchaci-theme/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/senchaci-theme/sass/var/tab/Bar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/senchaci-theme/sass/var/tab/Tab.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/senchaci-theme/sass/var/Component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.sencha/app/sencha.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="24" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.49776787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="369" selection-end="374" vertical-scroll-proportion="0.46875">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/MainTabpanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="24" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.49776787" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/MainToolbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -413,9 +737,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/MainTabpanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/user/UserAdminPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/MainViewport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="177" selection-end="177" vertical-scroll-proportion="-0.640625">
+        <state line="28" column="22" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/user/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/user/UserAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/user/UserForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/user/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/user/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="791" selection-end="791" vertical-scroll-proportion="0.13533835">
           <folding />
         </state>
       </provider>
